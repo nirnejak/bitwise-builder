@@ -10,7 +10,7 @@ const config: Config = {
     container: {
       center: true,
       screens: {
-        "2xl": "980px",
+        "2xl": "1200px",
       },
     },
     extend: {
@@ -97,7 +97,7 @@ const config: Config = {
       },
     },
     fontFamily: {
-      sans: ["var(--sans-font)"],
+      sans: ["Helvetica Now Text", "var(--sans-font)"],
       mono: ["var(--mono-font)"],
     },
   },
