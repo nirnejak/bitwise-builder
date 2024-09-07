@@ -12,7 +12,7 @@ export const metadata: Metadata = generateMetadata({
   path: "/",
   title: "Bitwise Builder",
   description:
-    "Bitwise Builder, an agency specializing in Python and builds high performance web applications.",
+    "Bitwise Builder, an development agency specializing in Python and Django, we and build high performance web applications.",
 })
 
 const Home: React.FC = () => {
