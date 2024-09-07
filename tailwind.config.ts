@@ -97,7 +97,7 @@ const config: Config = {
       },
     },
     fontFamily: {
-      sans: ["Helvetica Now Text", "var(--sans-font)"],
+      sans: ["var(--sans-font)"],
       mono: ["var(--mono-font)"],
     },
   },
