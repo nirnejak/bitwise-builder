@@ -1,6 +1,6 @@
 {
-  "name": "nextjs-typescript-starter",
-  "description": "Next.js TypeScript Starter",
+  "name": "bitwise-builder",
+  "description": "Bitwise Builder Website",
   "version": "1.0.0",
   "author": "Jitendra Nirnejak <jeetnirnejak@gmail.com>",
   "scripts": {
@@ -69,9 +69,9 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/nirnejak/nextjs-typescript-starter"
+    "url": "https://github.com/nirnejak/bitwise-builder"
   },
   "bugs": {
-    "url": "https://github.com/nirnejak/nextjs-typescript-starter/issues"
+    "url": "https://github.com/nirnejak/bitwise-builder/issues"
   }
 }
