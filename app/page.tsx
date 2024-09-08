@@ -19,12 +19,10 @@ const Home: React.FC = () => {
   return (
     <main className="">
       <section className="container mb-24 mt-40">
-        <div className="mb-8">
-          <p className="inline rounded-full border bg-zinc-100 px-3.5 py-1.5 text-xs text-zinc-700">
-            Open to projects
-          </p>
-        </div>
-        <h1 className="mb-12 text-8xl font-semibold tracking-tighter text-zinc-900">
+        <span className="rounded-full border bg-zinc-100 px-3.5 py-1.5 text-xs text-zinc-700">
+          Open to projects
+        </span>
+        <h1 className="mb-12 mt-9 text-8xl font-semibold tracking-tighter text-zinc-900">
           A single place for <br />
           all your dev work.
         </h1>
