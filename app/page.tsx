@@ -2,7 +2,7 @@ import * as React from "react"
 
 import { type Metadata } from "next"
 
-import { ArrowUpRight } from "akar-icons"
+import { ArrowUpRight, CircleFill } from "akar-icons"
 import Image from "next/image"
 import Link from "next/link"
 
@@ -20,9 +20,12 @@ const Home: React.FC = () => {
   return (
     <main className="">
       <section className="container mb-24 mt-40">
-        <span className="rounded-full border bg-zinc-100 px-3.5 py-1.5 text-xs text-zinc-700">
-          Open to projects
-        </span>
+        <div className="flex">
+          <span className="flex items-center gap-1.5 rounded-full bg-pink-100 px-3.5 py-1.5 text-xs text-pink-700">
+            <CircleFill size={5} className="text-pink-500" />
+            Open to projects
+          </span>
+        </div>
         <h1 className="mb-12 mt-9 text-8xl font-semibold tracking-tighter text-zinc-900">
           A single place for <br />
           all your dev work.
