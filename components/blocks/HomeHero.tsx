@@ -18,9 +18,13 @@ const HomeHero: React.FC = () => {
             initial={{ translateY: 10, opacity: 0 }}
             animate={{ translateY: 0, opacity: 1 }}
             transition={{ delay: 0, ...BASE_TRANSITION }}
-            className="flex items-center gap-1.5 rounded-full bg-pink-100 px-3.5 py-1.5 text-xs text-pink-700"
+            className="relative flex items-center gap-1.5 rounded-full bg-pink-100 px-3.5 py-1.5 pl-7 text-xs text-pink-700"
           >
-            <CircleFill size={5} className="text-pink-600" />
+            <CircleFill
+              size={5}
+              className="absolute left-3.5 animate-ping text-pink-600"
+            />
+            <CircleFill size={5} className="absolute left-3.5 text-pink-600" />
             Open to projects
           </motion.span>
         </div>
