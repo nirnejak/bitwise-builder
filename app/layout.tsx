@@ -2,7 +2,7 @@ import * as React from "react"
 
 import type { Viewport } from "next"
 
-import { Inter } from "next/font/google"
+import { Instrument_Sans } from "next/font/google"
 import localFont from "next/font/local"
 
 import { renderSchemaTags } from "@/utils/seo"
@@ -10,7 +10,7 @@ import classNames from "utils/classNames"
 
 import "../styles/main.css"
 
-const sansFont = Inter({
+const sansFont = Instrument_Sans({
   variable: "--sans-font",
   subsets: ["latin"],
 })
