@@ -11,20 +11,32 @@ const Header: React.FC = () => {
           Bitwise Builder
         </p>
         <nav className="flex items-center gap-6 font-medium leading-none text-zinc-500">
-          <Link href={"/"} className="transition-colors hover:text-zinc-900">
+          <Link
+            href={"/services/"}
+            className="transition-colors hover:text-zinc-900"
+          >
             Services
           </Link>
-          <Link href={"/"} className="transition-colors hover:text-zinc-900">
+          <Link
+            href={"/projects/"}
+            className="transition-colors hover:text-zinc-900"
+          >
             Projects
           </Link>
-          <Link href={"/"} className="transition-colors hover:text-zinc-900">
+          <Link
+            href={"/blogs/"}
+            className="transition-colors hover:text-zinc-900"
+          >
             Blogs
           </Link>
-          <Link href={"/"} className="transition-colors hover:text-zinc-900">
+          <Link
+            href={"/about/"}
+            className="transition-colors hover:text-zinc-900"
+          >
             About
           </Link>
           <Link
-            href={"/"}
+            href={"/careers/"}
             className="flex items-center gap-1.5 transition-colors hover:text-zinc-900"
           >
             Careers
