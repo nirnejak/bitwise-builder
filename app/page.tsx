@@ -18,7 +18,7 @@ export const metadata: Metadata = generateMetadata({
 const Home: React.FC = () => {
   return (
     <main className="">
-      <section className="container mb-24 mt-48">
+      <section className="container mb-24 mt-40">
         <div className="mb-8">
           <p className="inline rounded-full border bg-zinc-100 px-3.5 py-1.5 text-xs text-zinc-700">
             Open to projects
@@ -29,7 +29,7 @@ const Home: React.FC = () => {
           all your dev work.
         </h1>
         <div className="flex items-center justify-between">
-          <p className="max-w-[670px] text-lg text-zinc-700">
+          <p className="max-w-[670px] text-lg text-zinc-600">
             Building high-performance, scalable web apps with Python, Django,
             React, and Next.js. Empowering businesses with seamless user
             experiences and innovative digital solutions.
@@ -44,7 +44,7 @@ const Home: React.FC = () => {
           </div>
         </div>
       </section>
-      <section className="px-5">
+      <section className="mb-12 px-5">
         <Image
           src={CoverImage}
           alt="Team working together"

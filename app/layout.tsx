@@ -5,6 +5,7 @@ import type { Viewport } from "next"
 import { Instrument_Sans } from "next/font/google"
 import localFont from "next/font/local"
 
+import Header from "@/components/molecules/Header"
 import { renderSchemaTags } from "@/utils/seo"
 import classNames from "utils/classNames"
 
@@ -46,6 +47,7 @@ const RootLayout: React.FC<Props> = ({ children }) => {
           "overflow-x-hidden font-sans"
         )}
       >
+        <Header />
         {children}
       </body>
     </html>
