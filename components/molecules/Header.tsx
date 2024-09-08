@@ -4,7 +4,7 @@ import * as React from "react"
 import { CircleFill } from "akar-icons"
 import Link from "next/link"
 
-import classNames from "@/utils/classNames"
+import classNames from "utils/classNames"
 
 const Header: React.FC = () => {
   const [isScrolled, setIsScrolled] = React.useState(false)
