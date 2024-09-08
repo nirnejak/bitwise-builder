@@ -47,12 +47,15 @@ const Services: React.FC = () => {
             animate={controls}
             variants={variants}
             transition={{ delay: 0.1, ...BASE_TRANSITION }}
-            className="group relative flex aspect-square cursor-pointer rounded-2xl bg-zinc-100 p-5 transition-colors hover:border-zinc-900 hover:bg-zinc-900"
+            className="group relative flex aspect-square rounded-2xl bg-zinc-100 p-5 transition-colors hover:bg-zinc-900"
           >
             <span className="absolute right-3 top-3 rounded-full bg-zinc-900 p-2.5 text-zinc-50">
-              <ArrowUpRight className="transition-transform group-hover:-translate-y-1 group-hover:translate-x-1" />
+              <ArrowUpRight
+                size={17}
+                className="transition-transform group-hover:-translate-y-1 group-hover:translate-x-1"
+              />
             </span>
-            <p className="mt-auto text-2xl leading-none group-hover:text-zinc-50">
+            <p className="mt-auto text-2xl leading-none tracking-tight group-hover:text-zinc-50">
               Web Development
             </p>
           </motion.div>
@@ -63,12 +66,15 @@ const Services: React.FC = () => {
             animate={controls}
             variants={variants}
             transition={{ delay: 0.2, ...BASE_TRANSITION }}
-            className="group relative flex aspect-square cursor-pointer rounded-2xl bg-zinc-100 p-5 transition-colors hover:border-zinc-900 hover:bg-zinc-900"
+            className="group relative flex aspect-square rounded-2xl bg-zinc-100 p-5 transition-colors hover:bg-zinc-900"
           >
             <span className="absolute right-3 top-3 rounded-full bg-zinc-900 p-2.5 text-zinc-50">
-              <ArrowUpRight className="transition-transform group-hover:-translate-y-1 group-hover:translate-x-1" />
+              <ArrowUpRight
+                size={17}
+                className="transition-transform group-hover:-translate-y-1 group-hover:translate-x-1"
+              />
             </span>
-            <p className="mt-auto text-2xl leading-none group-hover:text-zinc-50">
+            <p className="mt-auto text-2xl leading-none tracking-tight group-hover:text-zinc-50">
               App Development
             </p>
           </motion.div>
@@ -79,12 +85,15 @@ const Services: React.FC = () => {
             animate={controls}
             variants={variants}
             transition={{ delay: 0.3, ...BASE_TRANSITION }}
-            className="group relative flex aspect-square cursor-pointer rounded-2xl bg-zinc-100 p-5 transition-colors hover:border-zinc-900 hover:bg-zinc-900"
+            className="group relative flex aspect-square rounded-2xl bg-zinc-100 p-5 transition-colors hover:bg-zinc-900"
           >
             <span className="absolute right-3 top-3 rounded-full bg-zinc-900 p-2.5 text-zinc-50">
-              <ArrowUpRight className="transition-transform group-hover:-translate-y-1 group-hover:translate-x-1" />
+              <ArrowUpRight
+                size={17}
+                className="transition-transform group-hover:-translate-y-1 group-hover:translate-x-1"
+              />
             </span>
-            <p className="mt-auto text-2xl leading-none group-hover:text-zinc-50">
+            <p className="mt-auto text-2xl leading-none tracking-tight group-hover:text-zinc-50">
               Cloud & DevOps
             </p>
           </motion.div>
@@ -95,12 +104,15 @@ const Services: React.FC = () => {
             animate={controls}
             variants={variants}
             transition={{ delay: 0.4, ...BASE_TRANSITION }}
-            className="group relative flex aspect-square cursor-pointer rounded-2xl bg-zinc-100 p-5 transition-colors hover:border-zinc-900 hover:bg-zinc-900"
+            className="group relative flex aspect-square rounded-2xl bg-zinc-100 p-5 transition-colors hover:bg-zinc-900"
           >
             <span className="absolute right-3 top-3 rounded-full bg-zinc-900 p-2.5 text-zinc-50">
-              <ArrowUpRight className="transition-transform group-hover:-translate-y-1 group-hover:translate-x-1" />
+              <ArrowUpRight
+                size={17}
+                className="transition-transform group-hover:-translate-y-1 group-hover:translate-x-1"
+              />
             </span>
-            <p className="mt-auto text-2xl leading-none group-hover:text-zinc-50">
+            <p className="mt-auto text-2xl leading-none tracking-tight group-hover:text-zinc-50">
               Product Design
             </p>
           </motion.div>
