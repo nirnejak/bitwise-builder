@@ -2,6 +2,7 @@ import * as React from "react"
 
 import { type Metadata } from "next"
 
+import { ArrowUpRight } from "akar-icons"
 import Image from "next/image"
 import Link from "next/link"
 
@@ -42,7 +43,7 @@ const Home: React.FC = () => {
           </div>
         </div>
       </section>
-      <section className="mb-12 px-5">
+      <section className="mb-48 px-5">
         <Image
           src={CoverImage}
           alt="Team working together"
@@ -52,6 +53,32 @@ const Home: React.FC = () => {
           width={1538.5}
           height={1054}
         />
+      </section>
+      <section className="container mb-48 grid grid-cols-3 gap-8">
+        <div className="group relative flex aspect-square cursor-pointer rounded-2xl border p-5 transition-colors hover:bg-zinc-900">
+          <span className="absolute right-3 top-3 rounded-full p-2.5 group-hover:bg-zinc-50 ">
+            <ArrowUpRight className="transition-transform group-hover:-translate-y-0.5 group-hover:translate-x-0.5" />
+          </span>
+          <p className="mt-auto text-2xl leading-none group-hover:text-zinc-50">
+            Web Development
+          </p>
+        </div>
+        <div className="group relative flex aspect-square cursor-pointer rounded-2xl border p-5 transition-colors hover:bg-zinc-900">
+          <span className="absolute right-3 top-3 rounded-full p-2.5 group-hover:bg-zinc-50 ">
+            <ArrowUpRight className="transition-transform group-hover:-translate-y-0.5 group-hover:translate-x-0.5" />
+          </span>
+          <p className="mt-auto text-2xl leading-none group-hover:text-zinc-50">
+            App Development
+          </p>
+        </div>
+        <div className="group relative flex aspect-square cursor-pointer rounded-2xl border p-5 transition-colors hover:bg-zinc-900">
+          <span className="absolute right-3 top-3 rounded-full p-2.5 group-hover:bg-zinc-50 ">
+            <ArrowUpRight className="transition-transform group-hover:-translate-y-0.5 group-hover:translate-x-0.5" />
+          </span>
+          <p className="mt-auto text-2xl leading-none group-hover:text-zinc-50">
+            UI/UX Design
+          </p>
+        </div>
       </section>
     </main>
   )
