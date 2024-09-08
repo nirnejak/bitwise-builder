@@ -7,21 +7,21 @@ import Link from "next/link"
 import classNames from "@/utils/classNames"
 
 const Header: React.FC = () => {
-  const [isScrolling, setIsScrolling] = React.useState(false)
+  const [isScrolled, setIsScrolled] = React.useState(false)
 
   React.useEffect(() => {
     const handleScroll = (): void => {
       if (window.scrollY > 50) {
-        setIsScrolling(true)
+        setIsScrolled(true)
       } else {
-        setIsScrolling(false)
+        setIsScrolled(false)
       }
     }
 
     if (window.scrollY > 50) {
-      setIsScrolling(true)
+      setIsScrolled(true)
     } else {
-      setIsScrolling(false)
+      setIsScrolled(false)
     }
 
     window.addEventListener("scroll", handleScroll)
@@ -35,7 +35,7 @@ const Header: React.FC = () => {
     <header
       className={classNames(
         "fixed top-0 w-[calc(100vw-40px)] mx-[20px] py-5 z-[9999]",
-        isScrolling
+        isScrolled
           ? "bg-white/80 shadow-md backdrop-blur-md mt-3 rounded-2xl transition-all mx-2"
           : ""
       )}
