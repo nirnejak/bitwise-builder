@@ -18,6 +18,12 @@ const Header: React.FC = () => {
       }
     }
 
+    if (window.scrollY > 50) {
+      setIsScrolling(true)
+    } else {
+      setIsScrolling(false)
+    }
+
     window.addEventListener("scroll", handleScroll)
 
     return () => {
