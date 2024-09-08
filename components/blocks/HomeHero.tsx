@@ -41,7 +41,7 @@ const HomeHero: React.FC = () => {
           transition={{ delay: 0.2, ...BASE_TRANSITION }}
           className="flex items-center justify-between"
         >
-          <p className="max-w-[670px] text-lg text-zinc-600">
+          <p className="max-w-[690px] text-lg tracking-tight text-zinc-600">
             Building high-performance, scalable web apps with Python, Django,
             React, and Next.js. Empowering businesses with seamless user
             experiences and innovative digital solutions.
