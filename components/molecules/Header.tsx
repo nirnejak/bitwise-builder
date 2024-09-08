@@ -36,7 +36,7 @@ const Header: React.FC = () => {
       className={classNames(
         "fixed top-0 w-[calc(100vw-40px)] mx-[20px] py-5 z-[9999]",
         isScrolled
-          ? "bg-white/80 shadow-md backdrop-blur-md mt-3 rounded-2xl transition-all mx-2"
+          ? "bg-white/80 shadow-lg border border-zinc-100 backdrop-blur-md mt-3 rounded-3xl transition-all mx-2"
           : ""
       )}
     >
