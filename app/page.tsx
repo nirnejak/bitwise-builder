@@ -57,7 +57,7 @@ const Home: React.FC = () => {
       <section className="container mb-48 grid grid-cols-3 gap-8">
         <Link
           href={"/services/web-development/"}
-          className="group relative flex aspect-square cursor-pointer rounded-2xl border p-5 transition-colors hover:bg-zinc-900"
+          className="group relative flex aspect-square cursor-pointer rounded-2xl border p-5 transition-colors hover:border-zinc-900 hover:bg-zinc-900"
         >
           <span className="absolute right-3 top-3 rounded-full bg-zinc-900 p-2.5 text-zinc-50">
             <ArrowUpRight className="transition-transform group-hover:-translate-y-1 group-hover:translate-x-1" />
@@ -68,7 +68,7 @@ const Home: React.FC = () => {
         </Link>
         <Link
           href={"/services/app-development/"}
-          className="group relative flex aspect-square cursor-pointer rounded-2xl border p-5 transition-colors hover:bg-zinc-900"
+          className="group relative flex aspect-square cursor-pointer rounded-2xl border p-5 transition-colors hover:border-zinc-900 hover:bg-zinc-900"
         >
           <span className="absolute right-3 top-3 rounded-full bg-zinc-900 p-2.5 text-zinc-50">
             <ArrowUpRight className="transition-transform group-hover:-translate-y-1 group-hover:translate-x-1" />
@@ -79,7 +79,7 @@ const Home: React.FC = () => {
         </Link>
         <Link
           href={"/services/product-design/"}
-          className="group relative flex aspect-square cursor-pointer rounded-2xl border p-5 transition-colors hover:bg-zinc-900"
+          className="group relative flex aspect-square cursor-pointer rounded-2xl border p-5 transition-colors hover:border-zinc-900 hover:bg-zinc-900"
         >
           <span className="absolute right-3 top-3 rounded-full bg-zinc-900 p-2.5 text-zinc-50">
             <ArrowUpRight className="transition-transform group-hover:-translate-y-1 group-hover:translate-x-1" />
