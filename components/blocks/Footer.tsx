@@ -11,7 +11,7 @@ const Footer: React.FC = () => {
           <div className="col-span-2 flex flex-col">
             <Link
               href={"/"}
-              className="text-xl font-semibold leading-none tracking-tighter text-zinc-900"
+              className="text-2xl font-semibold leading-none tracking-tighter text-zinc-900"
             >
               Bitwise Builder
             </Link>
