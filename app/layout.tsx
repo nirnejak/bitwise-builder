@@ -5,6 +5,7 @@ import type { Viewport } from "next"
 import { Instrument_Sans } from "next/font/google"
 import localFont from "next/font/local"
 
+import Footer from "components/blocks/Footer"
 import Header from "components/molecules/Header"
 import classNames from "utils/classNames"
 import { renderSchemaTags } from "utils/seo"
@@ -49,6 +50,7 @@ const RootLayout: React.FC<Props> = ({ children }) => {
       >
         <Header />
         {children}
+        <Footer />
       </body>
     </html>
   )
