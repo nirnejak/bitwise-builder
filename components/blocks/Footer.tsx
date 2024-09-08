@@ -56,20 +56,40 @@ const Footer: React.FC = () => {
           <div className="flex flex-col gap-5 tracking-tight">
             <p className="font-semibold text-zinc-900">Services</p>
 
-            <p>Web Development</p>
-            <p>App Development</p>
-            <p>Cloud and DevOps</p>
-            <p>Django Development</p>
-            <p>Flask Development</p>
-            <p>Spring Development</p>
-            <p>Product Design</p>
+            <Link href={"/"} className="transition-colors hover:text-zinc-900">
+              Web Development
+            </Link>
+            <Link href={"/"} className="transition-colors hover:text-zinc-900">
+              App Development
+            </Link>
+            <Link href={"/"} className="transition-colors hover:text-zinc-900">
+              Cloud and DevOps
+            </Link>
+            <Link href={"/"} className="transition-colors hover:text-zinc-900">
+              Django Development
+            </Link>
+            <Link href={"/"} className="transition-colors hover:text-zinc-900">
+              Flask Development
+            </Link>
+            <Link href={"/"} className="transition-colors hover:text-zinc-900">
+              Spring Development
+            </Link>
+            <Link href={"/"} className="transition-colors hover:text-zinc-900">
+              Product Design
+            </Link>
           </div>
           <div className="flex flex-col gap-5 tracking-tight">
             <p className="font-semibold text-zinc-900">Recent Blogs</p>
 
-            <p>How to structure the Django Project?</p>
-            <p>How to customize REST API responses per user in Django?</p>
-            <p>How to make REST APIs in Django using Django-rest-framework?</p>
+            <Link href={"/"} className="transition-colors hover:text-zinc-900">
+              How to structure the Django Project?
+            </Link>
+            <Link href={"/"} className="transition-colors hover:text-zinc-900">
+              How to customize REST API responses per user in Django?
+            </Link>
+            <Link href={"/"} className="transition-colors hover:text-zinc-900">
+              How to make REST APIs in Django using Django-rest-framework?
+            </Link>
           </div>
         </div>
       </div>
