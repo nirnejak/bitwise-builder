@@ -71,29 +71,29 @@ const Home: React.FC = () => {
               <ArrowUpRight className="transition-transform group-hover:-translate-y-1 group-hover:translate-x-1" />
             </span>
             <p className="mt-auto text-2xl leading-none group-hover:text-zinc-50">
-              Website Dev
+              Web Development
             </p>
           </Link>
           <Link
-            href={"/services/ios-development/"}
+            href={"/services/app-development/"}
             className="group relative flex aspect-square cursor-pointer rounded-2xl border p-5 transition-colors hover:border-zinc-900 hover:bg-zinc-900"
           >
             <span className="absolute right-3 top-3 rounded-full bg-zinc-900 p-2.5 text-zinc-50">
               <ArrowUpRight className="transition-transform group-hover:-translate-y-1 group-hover:translate-x-1" />
             </span>
             <p className="mt-auto text-2xl leading-none group-hover:text-zinc-50">
-              iOS Apps
+              App Development
             </p>
           </Link>
           <Link
-            href={"/services/android-development/"}
+            href={"/services/cloud-devops/"}
             className="group relative flex aspect-square cursor-pointer rounded-2xl border p-5 transition-colors hover:border-zinc-900 hover:bg-zinc-900"
           >
             <span className="absolute right-3 top-3 rounded-full bg-zinc-900 p-2.5 text-zinc-50">
               <ArrowUpRight className="transition-transform group-hover:-translate-y-1 group-hover:translate-x-1" />
             </span>
             <p className="mt-auto text-2xl leading-none group-hover:text-zinc-50">
-              Android Apps
+              Cloud & DevOps
             </p>
           </Link>
           <Link
