@@ -1,11 +1,39 @@
+"use client"
 import * as React from "react"
 
 import { CircleFill } from "akar-icons"
 import Link from "next/link"
 
+import classNames from "@/utils/classNames"
+
 const Header: React.FC = () => {
+  const [isScrolling, setIsScrolling] = React.useState(false)
+
+  React.useEffect(() => {
+    const handleScroll = (): void => {
+      if (window.scrollY > 50) {
+        setIsScrolling(true)
+      } else {
+        setIsScrolling(false)
+      }
+    }
+
+    window.addEventListener("scroll", handleScroll)
+
+    return () => {
+      window.removeEventListener("scroll", handleScroll)
+    }
+  }, [])
+
   return (
-    <header className="fixed top-0 w-full py-6">
+    <header
+      className={classNames(
+        "fixed top-0 w-[calc(100vw-40px)] mx-[20px] py-5 z-[9999]",
+        isScrolling
+          ? "bg-white/80 shadow-md backdrop-blur-md mt-3 rounded-2xl transition-all mx-2"
+          : ""
+      )}
+    >
       <div className="container flex items-center justify-between">
         <div className="flex items-center gap-20">
           <Link
