@@ -9,17 +9,15 @@ const Footer: React.FC = () => {
       <div className="rounded-3xl bg-zinc-100">
         <div className="container grid grid-cols-5 gap-24 py-20 text-zinc-500">
           <div className="col-span-2 flex flex-col">
-            <div>
-              <Link
-                href={"/"}
-                className="text-xl font-semibold leading-none tracking-tighter text-zinc-900"
-              >
-                Bitwise Builder
-              </Link>
-              <p className="mt-4 text-sm tracking-tight text-zinc-600">
-                © 2024, By Happy Chases Inc.
-              </p>
-            </div>
+            <Link
+              href={"/"}
+              className="text-xl font-semibold leading-none tracking-tighter text-zinc-900"
+            >
+              Bitwise Builder
+            </Link>
+            <p className="mt-4 text-sm tracking-tight text-zinc-600">
+              © 2024, By Happy Chases Inc.
+            </p>
             <div className="mt-auto">
               <Link
                 href={"/contact-us/"}
