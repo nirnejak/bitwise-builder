@@ -7,6 +7,16 @@ import { motion } from "framer-motion"
 import { BASE_TRANSITION } from "utils/animation"
 
 const ContactForm: React.FC = () => {
+  const [state, setState] = React.useState({
+    name: "",
+    email: "",
+    message: "",
+  })
+
+  const handleSubmit = (e: React.FormEvent): void => {
+    e.preventDefault()
+  }
+
   return (
     <section className="container mb-24 mt-40">
       <div className="flex">
@@ -29,22 +39,35 @@ const ContactForm: React.FC = () => {
         Contact us.
       </motion.h1>
 
-      <div className="flex w-3/5 flex-col gap-4">
+      <form
+        onSubmit={handleSubmit}
+        className="flex max-w-screen-sm flex-col gap-4"
+      >
         <motion.input
           initial={{ translateY: 10, opacity: 0 }}
           animate={{ translateY: 0, opacity: 1 }}
           transition={{ delay: 0.2, ...BASE_TRANSITION }}
-          type="text"
           className="rounded-2xl bg-zinc-200 px-6 py-5 text-lg focus:outline-none"
+          type="text"
           placeholder="Name"
+          name="name"
+          value={state.name}
+          onChange={(e) => {
+            setState({ ...state, [e.target.name]: e.target.value })
+          }}
         />
         <motion.input
           initial={{ translateY: 10, opacity: 0 }}
           animate={{ translateY: 0, opacity: 1 }}
           transition={{ delay: 0.25, ...BASE_TRANSITION }}
-          type="email"
           className="rounded-2xl bg-zinc-200 px-6 py-5 text-lg focus:outline-none"
+          type="email"
           placeholder="Email"
+          name="email"
+          value={state.email}
+          onChange={(e) => {
+            setState({ ...state, [e.target.name]: e.target.value })
+          }}
         />
         <motion.textarea
           initial={{ translateY: 10, opacity: 0 }}
@@ -53,16 +76,22 @@ const ContactForm: React.FC = () => {
           className="rounded-2xl bg-zinc-200 px-6 py-5 text-lg focus:outline-none"
           placeholder="Message"
           rows={4}
+          name="message"
+          value={state.message}
+          onChange={(e) => {
+            setState({ ...state, [e.target.name]: e.target.value })
+          }}
         />
         <motion.button
+          type="submit"
           initial={{ translateY: 10, opacity: 0 }}
           animate={{ translateY: 0, opacity: 1 }}
           transition={{ delay: 0.35, ...BASE_TRANSITION }}
-          className="mt-4 rounded-2xl bg-zinc-900 py-5 text-zinc-50"
+          className="mt-4 rounded-2xl bg-zinc-900 py-5 text-zinc-50 focus:outline-none"
         >
           Contact us
         </motion.button>
-      </div>
+      </form>
     </section>
   )
 }
