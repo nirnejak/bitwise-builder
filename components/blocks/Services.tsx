@@ -2,7 +2,8 @@
 import * as React from "react"
 
 import { ArrowUpRight } from "akar-icons"
-import { motion, useInView, useAnimation } from "framer-motion"
+import { useInView, useAnimation } from "framer-motion"
+import * as motion from "framer-motion/client"
 import Link from "next/link"
 
 import { BASE_TRANSITION } from "utils/animation"
