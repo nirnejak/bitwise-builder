@@ -30,7 +30,7 @@ const Header: React.FC = () => {
       <div>
         <Link
           href={"/contact-us/"}
-          className="rounded-full bg-zinc-900 px-6 py-3 text-sm text-zinc-50"
+          className="rounded-full bg-zinc-200 px-5 py-2.5 text-sm text-zinc-700 transition-colors hover:bg-zinc-300"
         >
           Contact us
         </Link>
