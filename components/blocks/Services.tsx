@@ -47,7 +47,7 @@ const Services: React.FC = () => {
             animate={controls}
             variants={variants}
             transition={{ delay: 0.1, ...BASE_TRANSITION }}
-            className="group relative flex aspect-square cursor-pointer rounded-2xl border p-5 transition-colors hover:border-zinc-900 hover:bg-zinc-900"
+            className="group relative flex aspect-square cursor-pointer rounded-2xl bg-zinc-100 p-5 transition-colors hover:border-zinc-900 hover:bg-zinc-900"
           >
             <span className="absolute right-3 top-3 rounded-full bg-zinc-900 p-2.5 text-zinc-50">
               <ArrowUpRight className="transition-transform group-hover:-translate-y-1 group-hover:translate-x-1" />
@@ -63,7 +63,7 @@ const Services: React.FC = () => {
             animate={controls}
             variants={variants}
             transition={{ delay: 0.2, ...BASE_TRANSITION }}
-            className="group relative flex aspect-square cursor-pointer rounded-2xl border p-5 transition-colors hover:border-zinc-900 hover:bg-zinc-900"
+            className="group relative flex aspect-square cursor-pointer rounded-2xl bg-zinc-100 p-5 transition-colors hover:border-zinc-900 hover:bg-zinc-900"
           >
             <span className="absolute right-3 top-3 rounded-full bg-zinc-900 p-2.5 text-zinc-50">
               <ArrowUpRight className="transition-transform group-hover:-translate-y-1 group-hover:translate-x-1" />
@@ -79,7 +79,7 @@ const Services: React.FC = () => {
             animate={controls}
             variants={variants}
             transition={{ delay: 0.3, ...BASE_TRANSITION }}
-            className="group relative flex aspect-square cursor-pointer rounded-2xl border p-5 transition-colors hover:border-zinc-900 hover:bg-zinc-900"
+            className="group relative flex aspect-square cursor-pointer rounded-2xl bg-zinc-100 p-5 transition-colors hover:border-zinc-900 hover:bg-zinc-900"
           >
             <span className="absolute right-3 top-3 rounded-full bg-zinc-900 p-2.5 text-zinc-50">
               <ArrowUpRight className="transition-transform group-hover:-translate-y-1 group-hover:translate-x-1" />
@@ -95,7 +95,7 @@ const Services: React.FC = () => {
             animate={controls}
             variants={variants}
             transition={{ delay: 0.4, ...BASE_TRANSITION }}
-            className="group relative flex aspect-square cursor-pointer rounded-2xl border p-5 transition-colors hover:border-zinc-900 hover:bg-zinc-900"
+            className="group relative flex aspect-square cursor-pointer rounded-2xl bg-zinc-100 p-5 transition-colors hover:border-zinc-900 hover:bg-zinc-900"
           >
             <span className="absolute right-3 top-3 rounded-full bg-zinc-900 p-2.5 text-zinc-50">
               <ArrowUpRight className="transition-transform group-hover:-translate-y-1 group-hover:translate-x-1" />
