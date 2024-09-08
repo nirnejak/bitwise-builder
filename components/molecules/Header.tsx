@@ -10,11 +10,11 @@ const Header: React.FC = () => {
         <div className="flex items-center gap-20">
           <Link
             href={"/"}
-            className="text-xl font-semibold leading-none text-zinc-900"
+            className="text-xl font-semibold leading-none tracking-tighter text-zinc-900"
           >
             Bitwise Builder
           </Link>
-          <nav className="flex items-center gap-6 font-medium leading-none text-zinc-500">
+          <nav className="flex items-center gap-6 font-medium leading-none tracking-tight text-zinc-500">
             <Link
               href={"/services/"}
               className="transition-colors hover:text-zinc-900"
