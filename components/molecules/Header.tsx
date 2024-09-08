@@ -7,9 +7,12 @@ const Header: React.FC = () => {
   return (
     <header className="container flex items-center justify-between py-8">
       <div className="flex items-center gap-20">
-        <p className="text-xl font-semibold leading-none text-zinc-900">
+        <Link
+          href={"/"}
+          className="text-xl font-semibold leading-none text-zinc-900"
+        >
           Bitwise Builder
-        </p>
+        </Link>
         <nav className="flex items-center gap-6 font-medium leading-none text-zinc-500">
           <Link
             href={"/services/"}
