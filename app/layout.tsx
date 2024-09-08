@@ -5,9 +5,9 @@ import type { Viewport } from "next"
 import { Instrument_Sans } from "next/font/google"
 import localFont from "next/font/local"
 
-import Header from "@/components/molecules/Header"
-import { renderSchemaTags } from "@/utils/seo"
+import Header from "components/molecules/Header"
 import classNames from "utils/classNames"
+import { renderSchemaTags } from "utils/seo"
 
 import "../styles/main.css"
 
