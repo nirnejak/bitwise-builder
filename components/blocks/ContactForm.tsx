@@ -35,7 +35,7 @@ const ContactForm: React.FC = () => {
           initial={{ translateY: 10, opacity: 0 }}
           animate={{ translateY: 0, opacity: 1 }}
           transition={{ delay: 0.2, ...BASE_TRANSITION }}
-          className="rounded-2xl bg-zinc-100 px-6 py-5 text-lg leading-none text-zinc-900 placeholder:text-zinc-400 focus:outline-none"
+          className="rounded-2xl bg-zinc-100 px-6 py-5 leading-none text-zinc-900 placeholder:text-zinc-400 focus:outline-none"
           type="text"
           placeholder="Name"
           name="name"
@@ -43,12 +43,13 @@ const ContactForm: React.FC = () => {
           onChange={(e) => {
             setState({ ...state, [e.target.name]: e.target.value })
           }}
+          required
         />
         <motion.input
           initial={{ translateY: 10, opacity: 0 }}
           animate={{ translateY: 0, opacity: 1 }}
           transition={{ delay: 0.25, ...BASE_TRANSITION }}
-          className="rounded-2xl bg-zinc-100 px-6 py-5 text-lg leading-none text-zinc-900 placeholder:text-zinc-400 focus:outline-none"
+          className="rounded-2xl bg-zinc-100 px-6 py-5 leading-none text-zinc-900 placeholder:text-zinc-400 focus:outline-none"
           type="email"
           placeholder="Email"
           name="email"
@@ -56,12 +57,13 @@ const ContactForm: React.FC = () => {
           onChange={(e) => {
             setState({ ...state, [e.target.name]: e.target.value })
           }}
+          required
         />
         <motion.textarea
           initial={{ translateY: 10, opacity: 0 }}
           animate={{ translateY: 0, opacity: 1 }}
           transition={{ delay: 0.3, ...BASE_TRANSITION }}
-          className="rounded-2xl bg-zinc-100 px-6 py-5 text-lg leading-none text-zinc-900 placeholder:text-zinc-400 focus:outline-none"
+          className="rounded-2xl bg-zinc-100 px-6 py-5 text-zinc-900 placeholder:text-zinc-400 focus:outline-none"
           placeholder="Message"
           rows={4}
           name="message"
@@ -69,6 +71,7 @@ const ContactForm: React.FC = () => {
           onChange={(e) => {
             setState({ ...state, [e.target.name]: e.target.value })
           }}
+          required
         />
         <motion.button
           type="submit"
