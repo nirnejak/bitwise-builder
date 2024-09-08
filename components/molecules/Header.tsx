@@ -32,69 +32,71 @@ const Header: React.FC = () => {
   }, [])
 
   return (
-    <header
-      className={classNames(
-        "fixed top-0 w-[calc(100vw-40px)] mx-[20px] py-5 z-[9999]",
-        isScrolled
-          ? "bg-white/80 shadow-lg border border-zinc-100 backdrop-blur-md mt-3 rounded-3xl transition-all mx-2"
-          : ""
-      )}
-    >
-      <div className="container flex items-center justify-between">
-        <div className="flex items-center gap-20">
-          <Link
-            href={"/"}
-            className="text-xl font-semibold leading-none tracking-tighter text-zinc-900"
-          >
-            Bitwise Builder
-          </Link>
-          <nav className="flex items-center gap-6 font-medium leading-none tracking-tight text-zinc-500">
+    <header className={classNames("fixed top-0 w-full px-5 z-[9999]")}>
+      <div
+        className={classNames(
+          "py-5",
+          isScrolled
+            ? "mt-3 rounded-3xl border border-zinc-100 bg-white/80 shadow-lg backdrop-blur-md transition-all"
+            : ""
+        )}
+      >
+        <div className="container flex items-center justify-between">
+          <div className="flex items-center gap-20 leading-none">
             <Link
-              href={"/services/"}
-              className="transition-colors hover:text-zinc-900"
+              href={"/"}
+              className="text-xl font-semibold tracking-tighter text-zinc-900"
             >
-              Services
+              Bitwise Builder
+            </Link>
+            <nav className="flex items-center gap-6 font-medium tracking-tight text-zinc-500">
+              <Link
+                href={"/services/"}
+                className="transition-colors hover:text-zinc-900"
+              >
+                Services
+              </Link>
+              <Link
+                href={"/projects/"}
+                className="transition-colors hover:text-zinc-900"
+              >
+                Projects
+              </Link>
+              <Link
+                href={"/blogs/"}
+                className="transition-colors hover:text-zinc-900"
+              >
+                Blogs
+              </Link>
+              <Link
+                href={"/about/"}
+                className="transition-colors hover:text-zinc-900"
+              >
+                About
+              </Link>
+              <Link
+                href={"/careers/"}
+                className="flex items-center gap-1.5 transition-colors hover:text-zinc-900"
+              >
+                Careers
+                <CircleFill size={5} className="text-pink-600" />
+              </Link>
+            </nav>
+          </div>
+          <div className="flex items-center gap-2">
+            <Link
+              href={"/contact-us/"}
+              className="rounded-full bg-zinc-200 px-5 py-2.5 text-sm font-medium text-zinc-700 transition-colors hover:bg-zinc-300"
+            >
+              Contact us
             </Link>
             <Link
-              href={"/projects/"}
-              className="transition-colors hover:text-zinc-900"
+              href={"/contact-us/"}
+              className="rounded-full bg-zinc-900 px-5 py-2.5 text-sm font-medium text-zinc-50 transition-colors hover:bg-zinc-800"
             >
-              Projects
+              Schedule call
             </Link>
-            <Link
-              href={"/blogs/"}
-              className="transition-colors hover:text-zinc-900"
-            >
-              Blogs
-            </Link>
-            <Link
-              href={"/about/"}
-              className="transition-colors hover:text-zinc-900"
-            >
-              About
-            </Link>
-            <Link
-              href={"/careers/"}
-              className="flex items-center gap-1.5 transition-colors hover:text-zinc-900"
-            >
-              Careers
-              <CircleFill size={5} className="text-pink-600" />
-            </Link>
-          </nav>
-        </div>
-        <div className="flex items-center gap-2">
-          <Link
-            href={"/contact-us/"}
-            className="rounded-full bg-zinc-200 px-5 py-2.5 text-sm font-medium text-zinc-700 transition-colors hover:bg-zinc-300"
-          >
-            Contact us
-          </Link>
-          <Link
-            href={"/contact-us/"}
-            className="rounded-full bg-zinc-900 px-5 py-2.5 text-sm font-medium text-zinc-50 transition-colors hover:bg-zinc-800"
-          >
-            Schedule call
-          </Link>
+          </div>
         </div>
       </div>
     </header>
