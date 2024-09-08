@@ -20,7 +20,7 @@ const HomeHero: React.FC = () => {
             transition={{ delay: 0, ...BASE_TRANSITION }}
             className="flex items-center gap-1.5 rounded-full bg-pink-100 px-3.5 py-1.5 text-xs text-pink-700"
           >
-            <CircleFill size={5} className="text-pink-500" />
+            <CircleFill size={5} className="text-pink-600" />
             Open to projects
           </motion.span>
         </div>

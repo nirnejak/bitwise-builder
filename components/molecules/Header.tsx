@@ -43,7 +43,7 @@ const Header: React.FC = () => {
             className="flex items-center gap-1.5 transition-colors hover:text-zinc-900"
           >
             Careers
-            <CircleFill size={5} className="text-pink-500" />
+            <CircleFill size={5} className="text-pink-600" />
           </Link>
         </nav>
       </div>
