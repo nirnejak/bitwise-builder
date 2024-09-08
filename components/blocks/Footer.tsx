@@ -21,7 +21,7 @@ const Footer: React.FC = () => {
             <div className="mt-auto">
               <Link
                 href={"/contact-us/"}
-                className="rounded-full bg-zinc-900 px-10 py-4 text-zinc-50"
+                className="rounded-full bg-zinc-900 px-10 py-4 text-zinc-50 hover:bg-zinc-800"
               >
                 Contact us
               </Link>

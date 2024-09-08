@@ -91,7 +91,7 @@ const Header: React.FC = () => {
           </Link>
           <Link
             href={"/contact-us/"}
-            className="rounded-full bg-zinc-900 px-5 py-2.5 text-sm font-medium text-zinc-50 transition-colors hover:bg-zinc-300"
+            className="rounded-full bg-zinc-900 px-5 py-2.5 text-sm font-medium text-zinc-50 transition-colors hover:bg-zinc-800"
           >
             Schedule call
           </Link>
