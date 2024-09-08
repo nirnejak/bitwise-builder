@@ -47,7 +47,7 @@ const Services: React.FC = () => {
             animate={controls}
             variants={variants}
             transition={{ delay: 0.1, ...BASE_TRANSITION }}
-            className="group relative flex aspect-square rounded-2xl bg-zinc-100 p-5 transition-colors hover:bg-zinc-900"
+            className="group relative flex aspect-square rounded-3xl bg-zinc-100 p-5 transition-colors hover:bg-zinc-900"
           >
             <span className="absolute right-3 top-3 rounded-full bg-zinc-900 p-2.5 text-zinc-50">
               <ArrowUpRight
@@ -66,7 +66,7 @@ const Services: React.FC = () => {
             animate={controls}
             variants={variants}
             transition={{ delay: 0.2, ...BASE_TRANSITION }}
-            className="group relative flex aspect-square rounded-2xl bg-zinc-100 p-5 transition-colors hover:bg-zinc-900"
+            className="group relative flex aspect-square rounded-3xl bg-zinc-100 p-5 transition-colors hover:bg-zinc-900"
           >
             <span className="absolute right-3 top-3 rounded-full bg-zinc-900 p-2.5 text-zinc-50">
               <ArrowUpRight
@@ -85,7 +85,7 @@ const Services: React.FC = () => {
             animate={controls}
             variants={variants}
             transition={{ delay: 0.3, ...BASE_TRANSITION }}
-            className="group relative flex aspect-square rounded-2xl bg-zinc-100 p-5 transition-colors hover:bg-zinc-900"
+            className="group relative flex aspect-square rounded-3xl bg-zinc-100 p-5 transition-colors hover:bg-zinc-900"
           >
             <span className="absolute right-3 top-3 rounded-full bg-zinc-900 p-2.5 text-zinc-50">
               <ArrowUpRight
@@ -104,7 +104,7 @@ const Services: React.FC = () => {
             animate={controls}
             variants={variants}
             transition={{ delay: 0.4, ...BASE_TRANSITION }}
-            className="group relative flex aspect-square rounded-2xl bg-zinc-100 p-5 transition-colors hover:bg-zinc-900"
+            className="group relative flex aspect-square rounded-3xl bg-zinc-100 p-5 transition-colors hover:bg-zinc-900"
           >
             <span className="absolute right-3 top-3 rounded-full bg-zinc-900 p-2.5 text-zinc-50">
               <ArrowUpRight
