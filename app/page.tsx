@@ -75,7 +75,7 @@ const Home: React.FC = () => {
             </p>
           </Link>
           <Link
-            href={"/services/app-development/"}
+            href={"/services/ios-development/"}
             className="group relative flex aspect-square cursor-pointer rounded-2xl border p-5 transition-colors hover:border-zinc-900 hover:bg-zinc-900"
           >
             <span className="absolute right-3 top-3 rounded-full bg-zinc-900 p-2.5 text-zinc-50">
@@ -86,7 +86,7 @@ const Home: React.FC = () => {
             </p>
           </Link>
           <Link
-            href={"/services/product-design/"}
+            href={"/services/android-development/"}
             className="group relative flex aspect-square cursor-pointer rounded-2xl border p-5 transition-colors hover:border-zinc-900 hover:bg-zinc-900"
           >
             <span className="absolute right-3 top-3 rounded-full bg-zinc-900 p-2.5 text-zinc-50">
