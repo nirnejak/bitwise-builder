@@ -1,5 +1,6 @@
 import * as React from "react"
 
+import { CircleFill } from "akar-icons"
 import Link from "next/link"
 
 const Header: React.FC = () => {
@@ -22,8 +23,12 @@ const Header: React.FC = () => {
           <Link href={"/"} className="transition-colors hover:text-zinc-900">
             About
           </Link>
-          <Link href={"/"} className="transition-colors hover:text-zinc-900">
+          <Link
+            href={"/"}
+            className="flex items-center gap-1.5 transition-colors hover:text-zinc-900"
+          >
             Careers
+            <CircleFill size={5} className="text-pink-500" />
           </Link>
         </nav>
       </div>
