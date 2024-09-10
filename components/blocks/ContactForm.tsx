@@ -17,7 +17,7 @@ const ContactForm: React.FC = () => {
   }
 
   return (
-    <section className="container mb-24 mt-40">
+    <section className="container mb-24 mt-40 px-5 xl:px-0">
       <motion.h1
         initial={{ translateY: 10, opacity: 0 }}
         animate={{ translateY: 0, opacity: 1 }}

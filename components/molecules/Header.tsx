@@ -41,7 +41,7 @@ const Header: React.FC = () => {
             : ""
         )}
       >
-        <div className="container flex items-center justify-between">
+        <div className="container flex items-center justify-between px-5 xl:px-0">
           <div className="flex items-center gap-20 leading-none">
             <Link
               href={"/"}

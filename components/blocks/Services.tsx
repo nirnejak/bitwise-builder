@@ -27,7 +27,7 @@ const Services: React.FC = () => {
   }
 
   return (
-    <section className="container mb-48 flex">
+    <section className="container mb-48 flex px-5 xl:px-0">
       <div className="flex-1" ref={ref}>
         <motion.h2
           initial="hidden"

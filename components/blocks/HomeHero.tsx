@@ -11,7 +11,7 @@ import { BASE_TRANSITION } from "utils/animation"
 const HomeHero: React.FC = () => {
   return (
     <>
-      <section className="container mb-24 mt-40">
+      <section className="container mb-24 mt-40 px-5 xl:px-0">
         <div className="flex">
           <motion.span
             initial={{ translateY: 10, opacity: 0 }}
