@@ -1,6 +1,6 @@
 import * as React from "react"
 
-import { CircleFill } from "akar-icons"
+import { CircleFill, ArrowRight } from "akar-icons"
 import * as motion from "framer-motion/client"
 import Image from "next/image"
 import Link from "next/link"
@@ -52,9 +52,15 @@ const HomeHero: React.FC = () => {
           <div>
             <Link
               href={"/contact-us/"}
-              className="rounded-full bg-zinc-900 px-10 py-4 text-zinc-50 hover:bg-zinc-800"
+              className="group flex items-center rounded-full bg-zinc-900 p-3 text-zinc-50"
             >
-              Contact us
+              <span className="pl-3 pr-8">Contact us</span>
+              <span className="rounded-full bg-zinc-50 p-2.5 text-zinc-900 group-hover:bg-zinc-900 group-hover:text-zinc-50">
+                <ArrowRight
+                  size={17}
+                  className="transition-transform group-hover:translate-x-1"
+                />
+              </span>
             </Link>
           </div>
         </motion.div>
