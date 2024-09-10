@@ -1,6 +1,6 @@
 import * as React from "react"
 
-import { CircleFill } from "akar-icons"
+import { CircleFill, ArrowRight } from "akar-icons"
 import Link from "next/link"
 
 const Footer: React.FC = () => {
@@ -18,12 +18,18 @@ const Footer: React.FC = () => {
             <p className="mt-4 text-sm tracking-tight text-zinc-600">
               © 2024, By Bitwise Builder Pvt Ltd.
             </p>
-            <div className="mt-auto">
+            <div className="mt-auto flex">
               <Link
                 href={"/contact-us/"}
-                className="rounded-full bg-zinc-900 px-10 py-4 text-zinc-50 hover:bg-zinc-800"
+                className="group flex items-center rounded-full bg-zinc-900 p-3 text-zinc-50"
               >
-                Contact us
+                <span className="pl-4 pr-8">Contact us</span>
+                <span className="rounded-full bg-zinc-50 p-2.5 text-zinc-900 group-hover:bg-zinc-900 group-hover:text-zinc-50">
+                  <ArrowRight
+                    size={17}
+                    className="transition-transform group-hover:translate-x-1"
+                  />
+                </span>
               </Link>
             </div>
           </div>
