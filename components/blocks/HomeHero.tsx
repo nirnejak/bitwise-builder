@@ -5,7 +5,10 @@ import * as motion from "framer-motion/client"
 import Image from "next/image"
 import Link from "next/link"
 
-import CoverImage from "assets/team.jpg"
+import ProjectImage1 from "assets/projects/auth.jpeg"
+import ProjectImage2 from "assets/projects/job-board.png"
+import ProjectImage3 from "assets/projects/kanban-board.jpeg"
+import ProjectImage4 from "assets/projects/settings.jpeg"
 import { BASE_TRANSITION } from "utils/animation"
 
 const HomeHero: React.FC = () => {
@@ -69,16 +72,47 @@ const HomeHero: React.FC = () => {
         initial={{ translateY: 10, opacity: 0 }}
         animate={{ translateY: 0, opacity: 1 }}
         transition={{ delay: 0.3, ...BASE_TRANSITION }}
-        className="mb-48 px-5"
+        className="mb-48 flex animate-marquee gap-6 px-5"
       >
         <Image
-          src={CoverImage}
+          src={ProjectImage2}
           alt="Team working together"
-          className="w-full rounded-3xl"
+          className="w-1/2 rounded-3xl border border-zinc-100"
           quality={100}
           priority
           width={1538.5}
           height={1054}
+          style={{ objectFit: "cover" }}
+        />
+        <Image
+          src={ProjectImage3}
+          alt="Team working together"
+          className="w-1/2 rounded-3xl border border-zinc-100"
+          quality={100}
+          priority
+          width={1538.5}
+          height={1054}
+          style={{ objectFit: "cover" }}
+        />
+        <Image
+          src={ProjectImage4}
+          alt="Team working together"
+          className="w-1/2 rounded-3xl border border-zinc-100"
+          quality={100}
+          priority
+          width={1538.5}
+          height={1054}
+          style={{ objectFit: "cover" }}
+        />
+        <Image
+          src={ProjectImage1}
+          alt="Team working together"
+          className="w-1/2 rounded-3xl border border-zinc-100"
+          quality={100}
+          priority
+          width={1538.5}
+          height={1054}
+          style={{ objectFit: "cover" }}
         />
       </motion.section>
     </>
