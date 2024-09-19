@@ -2,8 +2,10 @@
 import * as React from "react"
 
 import { CircleFill } from "akar-icons"
+import { motion } from "framer-motion"
 import Link from "next/link"
 
+import { BASE_TRANSITION } from "utils/animation"
 import classNames from "utils/classNames"
 
 const Header: React.FC = () => {
@@ -32,7 +34,12 @@ const Header: React.FC = () => {
   }, [])
 
   return (
-    <header className={classNames("fixed top-0 w-full px-5 z-[9999]")}>
+    <motion.header
+      initial={{ opacity: 0, filter: "blur(20px)" }}
+      animate={{ opacity: 1, filter: "none" }}
+      transition={BASE_TRANSITION}
+      className={classNames("fixed top-0 w-full px-5 z-[9999]")}
+    >
       <div
         className={classNames(
           "py-5",
@@ -99,7 +106,7 @@ const Header: React.FC = () => {
           </div>
         </div>
       </div>
-    </header>
+    </motion.header>
   )
 }
 
