@@ -17,8 +17,8 @@ const HomeHero: React.FC = () => {
       <section className="container mb-24 mt-40 px-5 xl:px-0">
         <div className="flex">
           <motion.span
-            initial={{ translateY: 10, opacity: 0 }}
-            animate={{ translateY: 0, opacity: 1 }}
+            initial={{ translateY: 10, opacity: 0, filter: "blur(20px)" }}
+            animate={{ translateY: 0, opacity: 1, filter: "none" }}
             transition={{ delay: 0, ...BASE_TRANSITION }}
             className="relative flex items-center gap-1.5 rounded-full bg-pink-100 px-3.5 py-1.5 pl-7 text-xs text-pink-700"
           >
@@ -31,8 +31,8 @@ const HomeHero: React.FC = () => {
           </motion.span>
         </div>
         <motion.h1
-          initial={{ translateY: 10, opacity: 0 }}
-          animate={{ translateY: 0, opacity: 1 }}
+          initial={{ translateY: 10, opacity: 0, filter: "blur(20px)" }}
+          animate={{ translateY: 0, opacity: 1, filter: "none" }}
           transition={{ delay: 0.1, ...BASE_TRANSITION }}
           className="mb-12 mt-9 text-8xl font-semibold tracking-tighter text-zinc-900"
         >
@@ -42,8 +42,8 @@ const HomeHero: React.FC = () => {
           <span>all your dev work.</span>
         </motion.h1>
         <motion.div
-          initial={{ translateY: 10, opacity: 0 }}
-          animate={{ translateY: 0, opacity: 1 }}
+          initial={{ translateY: 10, opacity: 0, filter: "blur(20px)" }}
+          animate={{ translateY: 0, opacity: 1, filter: "none" }}
           transition={{ delay: 0.2, ...BASE_TRANSITION }}
           className="flex items-center justify-between"
         >
