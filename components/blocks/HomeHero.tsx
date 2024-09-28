@@ -68,53 +68,55 @@ const HomeHero: React.FC = () => {
           </div>
         </motion.div>
       </section>
-      <motion.section
-        initial={{ translateY: 10, opacity: 0 }}
-        animate={{ translateY: 0, opacity: 1 }}
-        transition={{ delay: 0.3, ...BASE_TRANSITION }}
-        className="mb-48 flex animate-marquee gap-6 px-5"
-      >
-        <Image
-          src={ProjectImage2}
-          alt="Team working together"
-          className="w-1/2 rounded-3xl border border-zinc-100"
-          quality={100}
-          priority
-          width={1538.5}
-          height={1054}
-          style={{ objectFit: "cover" }}
-        />
-        <Image
-          src={ProjectImage3}
-          alt="Team working together"
-          className="w-1/2 rounded-3xl border border-zinc-100"
-          quality={100}
-          priority
-          width={1538.5}
-          height={1054}
-          style={{ objectFit: "cover" }}
-        />
-        <Image
-          src={ProjectImage4}
-          alt="Team working together"
-          className="w-1/2 rounded-3xl border border-zinc-100"
-          quality={100}
-          priority
-          width={1538.5}
-          height={1054}
-          style={{ objectFit: "cover" }}
-        />
-        <Image
-          src={ProjectImage1}
-          alt="Team working together"
-          className="w-1/2 rounded-3xl border border-zinc-100"
-          quality={100}
-          priority
-          width={1538.5}
-          height={1054}
-          style={{ objectFit: "cover" }}
-        />
-      </motion.section>
+      <section style={{ maxWidth: "100vw" }} className="overflow-x-hidden">
+        <motion.div
+          initial={{ translateY: 10, opacity: 0 }}
+          animate={{ translateY: 0, opacity: 1 }}
+          transition={{ delay: 0.3, ...BASE_TRANSITION }}
+          className="mb-48 flex animate-marquee gap-6 px-5"
+        >
+          <Image
+            src={ProjectImage2}
+            alt="Team working together"
+            className="w-1/2 rounded-3xl border border-zinc-100"
+            quality={100}
+            priority
+            width={1538.5}
+            height={1054}
+            style={{ objectFit: "cover" }}
+          />
+          <Image
+            src={ProjectImage3}
+            alt="Team working together"
+            className="w-1/2 rounded-3xl border border-zinc-100"
+            quality={100}
+            priority
+            width={1538.5}
+            height={1054}
+            style={{ objectFit: "cover" }}
+          />
+          <Image
+            src={ProjectImage4}
+            alt="Team working together"
+            className="w-1/2 rounded-3xl border border-zinc-100"
+            quality={100}
+            priority
+            width={1538.5}
+            height={1054}
+            style={{ objectFit: "cover" }}
+          />
+          <Image
+            src={ProjectImage1}
+            alt="Team working together"
+            className="w-1/2 rounded-3xl border border-zinc-100"
+            quality={100}
+            priority
+            width={1538.5}
+            height={1054}
+            style={{ objectFit: "cover" }}
+          />
+        </motion.div>
+      </section>
     </>
   )
 }
