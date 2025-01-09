@@ -67,14 +67,20 @@ const blogs = [
   },
 ]
 
+const variants = {
+  hidden: { translateY: 10, opacity: 0, filter: "blur(20px)" },
+  visible: { translateY: 0, opacity: 1, filter: "none" },
+}
+
 const Blogs: React.FC = () => {
   return (
     <main className="">
       <section className="container mb-24 mt-40 px-5 xl:px-0">
         <motion.h1
-          initial={{ translateY: 10, opacity: 0 }}
-          animate={{ translateY: 0, opacity: 1 }}
-          transition={{ delay: 0.1, ...BASE_TRANSITION }}
+          initial={"hidden"}
+          animate={"visible"}
+          variants={variants}
+          transition={{ delay: 0, ...BASE_TRANSITION }}
           className="mb-24 mt-9 text-8xl font-semibold tracking-tighter text-zinc-900"
         >
           Blogs.
@@ -88,9 +94,10 @@ const Blogs: React.FC = () => {
               className="group outline-none"
             >
               <motion.div
-                initial={{ translateY: 10, opacity: 0 }}
-                animate={{ translateY: 0, opacity: 1 }}
-                transition={{ delay: 0.1, ...BASE_TRANSITION }}
+                initial={"hidden"}
+                animate={"visible"}
+                variants={variants}
+                transition={{ delay: 0.1 * index, ...BASE_TRANSITION }}
                 className="flex w-9/12 items-center gap-6 rounded-2xl p-5 transition-colors group-hover:bg-zinc-900 group-hover:text-zinc-200 group-focus:bg-zinc-900 group-focus:text-zinc-200"
               >
                 <div className="rounded-full bg-zinc-900 p-2.5 text-zinc-50">
