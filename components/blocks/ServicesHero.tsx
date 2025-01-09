@@ -34,7 +34,7 @@ const ServicesHero: React.FC = () => {
           animate={"visible"}
           variants={variants}
           transition={{ delay: 0, ...BASE_TRANSITION }}
-          className="mb-6 mt-48 text-center text-7xl font-semibold tracking-tighter text-zinc-900"
+          className="mb-6 mt-48 text-center text-8xl font-semibold tracking-tighter text-zinc-900"
         >
           Our Services
         </motion.h1>
