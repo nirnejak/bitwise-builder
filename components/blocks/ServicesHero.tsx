@@ -2,8 +2,7 @@
 import * as React from "react"
 
 import { ArrowUpRight } from "akar-icons"
-import { useInView, useAnimation } from "framer-motion"
-import * as motion from "framer-motion/client"
+import { useInView, useAnimation, motion } from "motion/react"
 import Link from "next/link"
 
 import { BASE_TRANSITION } from "utils/animation"
@@ -91,7 +90,10 @@ const ServicesHero: React.FC = () => {
               </p>
             </motion.div>
           </Link>
-          <Link href={"/services/cloud-devops/"} className="group outline-hidden">
+          <Link
+            href={"/services/cloud-devops/"}
+            className="group outline-hidden"
+          >
             <motion.div
               initial={"hidden"}
               animate={"visible"}

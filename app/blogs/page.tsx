@@ -3,7 +3,7 @@ import * as React from "react"
 import { type Metadata } from "next"
 
 import { ArrowUpRight } from "akar-icons"
-import * as motion from "framer-motion/client"
+import * as motion from "motion/react-client"
 import Link from "next/link"
 
 import { BASE_TRANSITION } from "utils/animation"

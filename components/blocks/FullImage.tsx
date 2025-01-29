@@ -1,6 +1,6 @@
 import * as React from "react"
 
-import * as motion from "framer-motion/client"
+import * as motion from "motion/react-client"
 import Image from "next/image"
 
 import CoverImage from "assets/team.jpg"

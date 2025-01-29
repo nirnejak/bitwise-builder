@@ -1,7 +1,7 @@
 import * as React from "react"
 
 import { CircleFill, ArrowRight } from "akar-icons"
-import * as motion from "framer-motion/client"
+import * as motion from "motion/react-client"
 import Image from "next/image"
 import Link from "next/link"
 

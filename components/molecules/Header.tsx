@@ -2,7 +2,7 @@
 import * as React from "react"
 
 import { CircleFill } from "akar-icons"
-import { motion } from "framer-motion"
+import { motion } from "motion/react"
 import Link from "next/link"
 
 import { BASE_TRANSITION } from "utils/animation"
