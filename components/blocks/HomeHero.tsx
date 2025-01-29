@@ -5,12 +5,13 @@ import * as motion from "motion/react-client"
 import Image from "next/image"
 import Link from "next/link"
 
-import ProjectImage1 from "assets/projects/auth.jpeg"
-import ProjectImage5 from "assets/projects/components-grid.jpeg"
-import ProjectImage2 from "assets/projects/job-board.png"
-import ProjectImage3 from "assets/projects/kanban-board.jpeg"
-import ProjectImage4 from "assets/projects/settings.jpeg"
-import { BASE_TRANSITION } from "utils/animation"
+import { BASE_TRANSITION } from "@/utils/animation"
+
+import ProjectImage1 from "@/assets/projects/auth.jpeg"
+import ProjectImage5 from "@/assets/projects/components-grid.jpeg"
+import ProjectImage2 from "@/assets/projects/job-board.png"
+import ProjectImage3 from "@/assets/projects/kanban-board.jpeg"
+import ProjectImage4 from "@/assets/projects/settings.jpeg"
 
 const HomeHero: React.FC = () => {
   return (

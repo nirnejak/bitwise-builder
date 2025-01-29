@@ -6,8 +6,8 @@ import { ArrowUpRight } from "akar-icons"
 import * as motion from "motion/react-client"
 import Link from "next/link"
 
-import { BASE_TRANSITION } from "utils/animation"
-import { generateMetadata } from "utils/seo"
+import { BASE_TRANSITION } from "@/utils/animation"
+import { generateMetadata } from "@/utils/seo"
 
 export const metadata: Metadata = generateMetadata({
   path: "/blogs/",

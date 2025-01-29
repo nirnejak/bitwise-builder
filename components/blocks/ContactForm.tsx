@@ -3,7 +3,7 @@ import * as React from "react"
 
 import { motion } from "motion/react"
 
-import { BASE_TRANSITION } from "utils/animation"
+import { BASE_TRANSITION } from "@/utils/animation"
 
 const ContactForm: React.FC = () => {
   const [state, setState] = React.useState({

@@ -4,8 +4,8 @@ import { type Metadata } from "next"
 
 import * as motion from "motion/react-client"
 
-import { BASE_TRANSITION } from "utils/animation"
-import { generateMetadata } from "utils/seo"
+import { BASE_TRANSITION } from "@/utils/animation"
+import { generateMetadata } from "@/utils/seo"
 
 export const metadata: Metadata = generateMetadata({
   path: "/blogs/",

@@ -5,8 +5,8 @@ import { CircleFill } from "akar-icons"
 import { motion } from "motion/react"
 import Link from "next/link"
 
-import { BASE_TRANSITION } from "utils/animation"
-import classNames from "utils/classNames"
+import { BASE_TRANSITION } from "@/utils/animation"
+import classNames from "@/utils/classNames"
 
 const Header: React.FC = () => {
   const [isScrolled, setIsScrolled] = React.useState(false)

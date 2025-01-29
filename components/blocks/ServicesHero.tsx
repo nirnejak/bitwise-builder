@@ -5,7 +5,7 @@ import { ArrowUpRight } from "akar-icons"
 import { useInView, useAnimation, motion } from "motion/react"
 import Link from "next/link"
 
-import { BASE_TRANSITION } from "utils/animation"
+import { BASE_TRANSITION } from "@/utils/animation"
 
 const ServicesHero: React.FC = () => {
   const controls = useAnimation()
