@@ -49,7 +49,7 @@ const ServicesHero: React.FC = () => {
         <div className="grid w-full grid-cols-2 gap-8 px-24 md:grid-cols-4">
           <Link
             href={"/services/web-development/"}
-            className="group outline-none"
+            className="group outline-hidden"
           >
             <motion.div
               initial={"hidden"}
@@ -61,7 +61,7 @@ const ServicesHero: React.FC = () => {
               <span className="absolute right-3 top-3 rounded-full bg-zinc-900 p-2.5 text-zinc-50">
                 <ArrowUpRight
                   size={17}
-                  className="transition-transform group-hover:-translate-y-1 group-hover:translate-x-1 group-hover:scale-[2] group-focus:-translate-y-1 group-focus:translate-x-1 group-focus:scale-[2]"
+                  className="transition-transform group-hover:-translate-y-1 group-hover:translate-x-1 group-hover:scale-2 group-focus:-translate-y-1 group-focus:translate-x-1 group-focus:scale-2"
                 />
               </span>
               <p className="mt-auto text-xl leading-none tracking-tight group-hover:text-zinc-50 group-focus:text-zinc-50">
@@ -71,7 +71,7 @@ const ServicesHero: React.FC = () => {
           </Link>
           <Link
             href={"/services/app-development/"}
-            className="group outline-none"
+            className="group outline-hidden"
           >
             <motion.div
               initial={"hidden"}
@@ -83,7 +83,7 @@ const ServicesHero: React.FC = () => {
               <span className="absolute right-3 top-3 rounded-full bg-zinc-900 p-2.5 text-zinc-50">
                 <ArrowUpRight
                   size={17}
-                  className="transition-transform group-hover:-translate-y-1 group-hover:translate-x-1 group-hover:scale-[2] group-focus:-translate-y-1 group-focus:translate-x-1 group-focus:scale-[2]"
+                  className="transition-transform group-hover:-translate-y-1 group-hover:translate-x-1 group-hover:scale-2 group-focus:-translate-y-1 group-focus:translate-x-1 group-focus:scale-2"
                 />
               </span>
               <p className="mt-auto text-xl leading-none tracking-tight group-hover:text-zinc-50 group-focus:text-zinc-50">
@@ -91,7 +91,7 @@ const ServicesHero: React.FC = () => {
               </p>
             </motion.div>
           </Link>
-          <Link href={"/services/cloud-devops/"} className="group outline-none">
+          <Link href={"/services/cloud-devops/"} className="group outline-hidden">
             <motion.div
               initial={"hidden"}
               animate={"visible"}
@@ -102,7 +102,7 @@ const ServicesHero: React.FC = () => {
               <span className="absolute right-3 top-3 rounded-full bg-zinc-900 p-2.5 text-zinc-50">
                 <ArrowUpRight
                   size={17}
-                  className="transition-transform group-hover:-translate-y-1 group-hover:translate-x-1 group-hover:scale-[2] group-focus:-translate-y-1 group-focus:translate-x-1 group-focus:scale-[2]"
+                  className="transition-transform group-hover:-translate-y-1 group-hover:translate-x-1 group-hover:scale-2 group-focus:-translate-y-1 group-focus:translate-x-1 group-focus:scale-2"
                 />
               </span>
               <p className="mt-auto text-xl leading-none tracking-tight group-hover:text-zinc-50 group-focus:text-zinc-50">
@@ -112,7 +112,7 @@ const ServicesHero: React.FC = () => {
           </Link>
           <Link
             href={"/services/product-design/"}
-            className="group outline-none"
+            className="group outline-hidden"
           >
             <motion.div
               initial={"hidden"}
@@ -124,7 +124,7 @@ const ServicesHero: React.FC = () => {
               <span className="absolute right-3 top-3 rounded-full bg-zinc-900 p-2.5 text-zinc-50">
                 <ArrowUpRight
                   size={17}
-                  className="transition-transform group-hover:-translate-y-1 group-hover:translate-x-1 group-hover:scale-[2] group-focus:-translate-y-1 group-focus:translate-x-1 group-focus:scale-[2]"
+                  className="transition-transform group-hover:-translate-y-1 group-hover:translate-x-1 group-hover:scale-2 group-focus:-translate-y-1 group-focus:translate-x-1 group-focus:scale-2"
                 />
               </span>
               <p className="mt-auto text-xl leading-none tracking-tight group-hover:text-zinc-50 group-focus:text-zinc-50">

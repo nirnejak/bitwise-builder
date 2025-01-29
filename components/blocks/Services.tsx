@@ -53,7 +53,7 @@ const Services: React.FC = () => {
             <span className="absolute right-3 top-3 rounded-full bg-zinc-900 p-2.5 text-zinc-50">
               <ArrowUpRight
                 size={17}
-                className="transition-transform group-hover:-translate-y-1 group-hover:translate-x-1 group-hover:scale-[2]"
+                className="transition-transform group-hover:-translate-y-1 group-hover:translate-x-1 group-hover:scale-2"
               />
             </span>
             <p className="mt-auto text-2xl leading-none tracking-tight group-hover:text-zinc-50">
@@ -72,7 +72,7 @@ const Services: React.FC = () => {
             <span className="absolute right-3 top-3 rounded-full bg-zinc-900 p-2.5 text-zinc-50">
               <ArrowUpRight
                 size={17}
-                className="transition-transform group-hover:-translate-y-1 group-hover:translate-x-1 group-hover:scale-[2]"
+                className="transition-transform group-hover:-translate-y-1 group-hover:translate-x-1 group-hover:scale-2"
               />
             </span>
             <p className="mt-auto text-2xl leading-none tracking-tight group-hover:text-zinc-50">
@@ -91,7 +91,7 @@ const Services: React.FC = () => {
             <span className="absolute right-3 top-3 rounded-full bg-zinc-900 p-2.5 text-zinc-50">
               <ArrowUpRight
                 size={17}
-                className="transition-transform group-hover:-translate-y-1 group-hover:translate-x-1 group-hover:scale-[2]"
+                className="transition-transform group-hover:-translate-y-1 group-hover:translate-x-1 group-hover:scale-2"
               />
             </span>
             <p className="mt-auto text-2xl leading-none tracking-tight group-hover:text-zinc-50">
@@ -110,7 +110,7 @@ const Services: React.FC = () => {
             <span className="absolute right-3 top-3 rounded-full bg-zinc-900 p-2.5 text-zinc-50">
               <ArrowUpRight
                 size={17}
-                className="transition-transform group-hover:-translate-y-1 group-hover:translate-x-1 group-hover:scale-[2]"
+                className="transition-transform group-hover:-translate-y-1 group-hover:translate-x-1 group-hover:scale-2"
               />
             </span>
             <p className="mt-auto text-2xl leading-none tracking-tight group-hover:text-zinc-50">

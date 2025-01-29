@@ -91,7 +91,7 @@ const Blogs: React.FC = () => {
               href="#"
               as={`/blogs/${index}`}
               key={index}
-              className="group outline-none"
+              className="group outline-hidden"
             >
               <motion.div
                 initial={"hidden"}

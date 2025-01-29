@@ -38,7 +38,7 @@ const Header: React.FC = () => {
       initial={{ opacity: 0, filter: "blur(20px)" }}
       animate={{ opacity: 1, filter: "none" }}
       transition={BASE_TRANSITION}
-      className={classNames("fixed top-0 w-full px-5 z-[9999]")}
+      className={classNames("fixed top-0 w-full px-5 z-9999")}
     >
       <div
         className={classNames(
