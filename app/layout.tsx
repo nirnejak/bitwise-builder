@@ -2,7 +2,6 @@ import * as React from "react"
 
 import type { Viewport } from "next"
 import { Instrument_Sans } from "next/font/google"
-import localFont from "next/font/local"
 
 import classNames from "@/utils/classNames"
 import { renderSchemaTags } from "@/utils/seo"
@@ -16,15 +15,9 @@ const sansFont = Instrument_Sans({
   subsets: ["latin"],
 })
 
-const monoFont = localFont({
+const monoFont = Instrument_Sans({
   variable: "--mono-font",
-  src: [
-    {
-      path: "../fonts/JetBrainsMono-Regular.ttf",
-      weight: "regular",
-      style: "normal",
-    },
-  ],
+  subsets: ["latin"],
 })
 
 export const viewport: Viewport = {
