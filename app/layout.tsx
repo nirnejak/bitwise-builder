@@ -1,14 +1,13 @@
 import * as React from "react"
 
 import type { Viewport } from "next"
-
 import { Instrument_Sans } from "next/font/google"
 import localFont from "next/font/local"
 
-import Footer from "@/components/blocks/Footer"
-import Header from "@/components/molecules/Header"
 import classNames from "@/utils/classNames"
 import { renderSchemaTags } from "@/utils/seo"
+import Footer from "@/components/blocks/Footer"
+import Header from "@/components/molecules/Header"
 
 import "../styles/main.css"
 
@@ -38,16 +37,17 @@ interface Props {
 
 const RootLayout: React.FC<Props> = ({ children }) => {
   return (
-    <html lang="en">
+    <html
+      lang="en"
+      className={classNames(
+        sansFont.variable,
+        monoFont.variable,
+        "overflow-x-hidden font-sans"
+      )}
+    >
       <head>{renderSchemaTags()}</head>
 
-      <body
-        className={classNames(
-          sansFont.variable,
-          monoFont.variable,
-          "overflow-x-hidden font-sans"
-        )}
-      >
+      <body className="overflow-x-hidden font-sans">
         <Header />
         {children}
         <Footer />
