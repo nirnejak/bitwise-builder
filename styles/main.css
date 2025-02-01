@@ -8,13 +8,13 @@
 }
 
 ::-moz-selection {
-  @apply bg-zinc-600 text-white;
-  -webkit-text-fill-color: white;
+  @apply bg-pink-100 text-zinc-900;
+  -webkit-text-fill-color: #18181b;
 }
 
 ::selection {
-  @apply bg-zinc-600 text-white;
-  -webkit-text-fill-color: white;
+  @apply bg-pink-100 text-zinc-900;
+  -webkit-text-fill-color: #18181b;
 }
 
 .container {
