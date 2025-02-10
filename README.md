@@ -2,6 +2,8 @@
   Bitwise Builder Website
 </h1>
 
+Inspiration - https://stackerhq.com/features/team-workspace
+
 ---
 
 ## Available Scripts
