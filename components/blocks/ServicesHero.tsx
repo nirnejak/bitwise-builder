@@ -60,7 +60,7 @@ const ServicesHero: React.FC = () => {
               <span className="absolute right-3 top-3 rounded-full bg-zinc-900 p-2.5 text-zinc-50">
                 <ArrowUpRight
                   size={17}
-                  className="transition-transform group-hover:-translate-y-1 group-hover:translate-x-1 group-hover:scale-2 group-focus:-translate-y-1 group-focus:translate-x-1 group-focus:scale-2"
+                  className="transition-transform group-hover:-translate-y-1 group-hover:translate-x-1 group-hover:scale-150 group-focus:-translate-y-1 group-focus:translate-x-1 group-focus:scale-150"
                 />
               </span>
               <p className="mt-auto text-xl leading-none tracking-tight group-hover:text-zinc-50 group-focus:text-zinc-50">
@@ -82,7 +82,7 @@ const ServicesHero: React.FC = () => {
               <span className="absolute right-3 top-3 rounded-full bg-zinc-900 p-2.5 text-zinc-50">
                 <ArrowUpRight
                   size={17}
-                  className="transition-transform group-hover:-translate-y-1 group-hover:translate-x-1 group-hover:scale-2 group-focus:-translate-y-1 group-focus:translate-x-1 group-focus:scale-2"
+                  className="transition-transform group-hover:-translate-y-1 group-hover:translate-x-1 group-hover:scale-150 group-focus:-translate-y-1 group-focus:translate-x-1 group-focus:scale-150"
                 />
               </span>
               <p className="mt-auto text-xl leading-none tracking-tight group-hover:text-zinc-50 group-focus:text-zinc-50">
@@ -104,7 +104,7 @@ const ServicesHero: React.FC = () => {
               <span className="absolute right-3 top-3 rounded-full bg-zinc-900 p-2.5 text-zinc-50">
                 <ArrowUpRight
                   size={17}
-                  className="transition-transform group-hover:-translate-y-1 group-hover:translate-x-1 group-hover:scale-2 group-focus:-translate-y-1 group-focus:translate-x-1 group-focus:scale-2"
+                  className="transition-transform group-hover:-translate-y-1 group-hover:translate-x-1 group-hover:scale-150 group-focus:-translate-y-1 group-focus:translate-x-1 group-focus:scale-150"
                 />
               </span>
               <p className="mt-auto text-xl leading-none tracking-tight group-hover:text-zinc-50 group-focus:text-zinc-50">
@@ -126,7 +126,7 @@ const ServicesHero: React.FC = () => {
               <span className="absolute right-3 top-3 rounded-full bg-zinc-900 p-2.5 text-zinc-50">
                 <ArrowUpRight
                   size={17}
-                  className="transition-transform group-hover:-translate-y-1 group-hover:translate-x-1 group-hover:scale-2 group-focus:-translate-y-1 group-focus:translate-x-1 group-focus:scale-2"
+                  className="transition-transform group-hover:-translate-y-1 group-hover:translate-x-1 group-hover:scale-150 group-focus:-translate-y-1 group-focus:translate-x-1 group-focus:scale-150"
                 />
               </span>
               <p className="mt-auto text-xl leading-none tracking-tight group-hover:text-zinc-50 group-focus:text-zinc-50">

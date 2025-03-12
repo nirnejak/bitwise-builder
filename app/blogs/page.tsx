@@ -103,7 +103,7 @@ const Blogs: React.FC = () => {
                 <div className="rounded-full bg-zinc-900 p-2.5 text-zinc-50">
                   <ArrowUpRight
                     size={17}
-                    className="transition-transform group-hover:-translate-y-1 group-hover:translate-x-1 group-hover:scale-[1.6] group-focus:-translate-y-1 group-focus:translate-x-1 group-focus:scale-150"
+                    className="transition-transform group-hover:-translate-y-1 group-hover:translate-x-1 group-hover:scale-150 group-focus:-translate-y-1 group-focus:translate-x-1 group-focus:scale-150"
                   />
                 </div>
                 <div>
