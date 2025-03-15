@@ -36,18 +36,15 @@ const HomeHero: React.FC = () => {
           initial={{ translateY: 10, opacity: 0, filter: "blur(20px)" }}
           animate={{ translateY: 0, opacity: 1, filter: "none" }}
           transition={{ delay: 0.1, ...BASE_TRANSITION }}
-          className="mb-12 mt-9 text-6xl font-semibold tracking-tighter text-zinc-900 md:text-8xl"
+          className="mb-6 md:mb-12 mt-6 md:mt-9 text-6xl font-semibold tracking-tighter text-zinc-900 md:text-8xl max-w-[12ch]"
         >
-          <span>
-            A single place for <br />
-          </span>
-          <span>all your dev work.</span>
+          A single place for all your dev work.
         </motion.h1>
         <motion.div
           initial={{ translateY: 10, opacity: 0, filter: "blur(20px)" }}
           animate={{ translateY: 0, opacity: 1, filter: "none" }}
           transition={{ delay: 0.2, ...BASE_TRANSITION }}
-          className="flex items-center justify-between"
+          className="flex items-start md:items-center justify-between flex-col md:flex-row gap-8"
         >
           <p className="max-w-[690px] text-base tracking-tight text-zinc-600 md:text-lg">
             Building high-performance, scalable web apps with Python, Django,
