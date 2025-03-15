@@ -82,7 +82,7 @@ const ContactForm: React.FC = () => {
           transition={{ delay: 0.35, ...BASE_TRANSITION }}
           className="mt-4 rounded-2xl bg-zinc-900 py-5 text-zinc-50 hover:bg-zinc-800 focus:bg-zinc-800 focus:outline-hidden"
         >
-          Contact us
+          Send Message
         </motion.button>
       </form>
     </section>
