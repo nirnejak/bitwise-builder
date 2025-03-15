@@ -26,21 +26,19 @@ const Services: React.FC = () => {
   }
 
   return (
-    <section className="container mb-48 flex px-5 xl:px-0">
+    <section className="container mb-48 flex flex-col md:flex-row px-5 xl:px-0">
       <div className="flex-1" ref={ref}>
         <motion.h2
           initial="hidden"
           animate={controls}
           variants={variants}
           transition={{ delay: 0, ...BASE_TRANSITION }}
-          className="mb-12 mt-9 text-7xl font-semibold tracking-tighter text-zinc-900"
+          className="mb-12 mt-9 text-5xl md:text-7xl font-semibold tracking-tighter text-zinc-900 max-w-[9ch]"
         >
-          What can we
-          <br />
-          do for you?
+          What can we do for you?
         </motion.h2>
       </div>
-      <div className="grid flex-1 grid-cols-2 gap-8">
+      <div className="grid flex-1 grid-cols-2 gap-4 md:gap-8">
         <Link href={"/services/web-development/"}>
           <motion.div
             initial="hidden"
@@ -55,7 +53,7 @@ const Services: React.FC = () => {
                 className="transition-transform group-hover:-translate-y-1 group-hover:translate-x-1 group-hover:scale-150"
               />
             </span>
-            <p className="mt-auto text-2xl leading-none tracking-tight group-hover:text-zinc-50">
+            <p className="mt-auto text-xl md:text-2xl leading-none tracking-tight group-hover:text-zinc-50">
               Web Development
             </p>
           </motion.div>
@@ -74,7 +72,7 @@ const Services: React.FC = () => {
                 className="transition-transform group-hover:-translate-y-1 group-hover:translate-x-1 group-hover:scale-150"
               />
             </span>
-            <p className="mt-auto text-2xl leading-none tracking-tight group-hover:text-zinc-50">
+            <p className="mt-auto text-xl md:text-2xl leading-none tracking-tight group-hover:text-zinc-50">
               App Development
             </p>
           </motion.div>
@@ -93,7 +91,7 @@ const Services: React.FC = () => {
                 className="transition-transform group-hover:-translate-y-1 group-hover:translate-x-1 group-hover:scale-150"
               />
             </span>
-            <p className="mt-auto text-2xl leading-none tracking-tight group-hover:text-zinc-50">
+            <p className="mt-auto text-xl md:text-2xl leading-none tracking-tight group-hover:text-zinc-50">
               Cloud & DevOps
             </p>
           </motion.div>
@@ -112,7 +110,7 @@ const Services: React.FC = () => {
                 className="transition-transform group-hover:-translate-y-1 group-hover:translate-x-1 group-hover:scale-150"
               />
             </span>
-            <p className="mt-auto text-2xl leading-none tracking-tight group-hover:text-zinc-50">
+            <p className="mt-auto text-xl md:text-2xl leading-none tracking-tight group-hover:text-zinc-50">
               Product Design
             </p>
           </motion.div>
