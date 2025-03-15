@@ -57,11 +57,8 @@ const HomeHero: React.FC = () => {
               className="group flex items-center rounded-full bg-zinc-900 p-3 text-zinc-50"
             >
               <span className="pl-4 pr-8">Contact us</span>
-              <span className="rounded-full bg-zinc-50 p-2.5 text-zinc-900 group-hover:bg-zinc-900 group-hover:text-zinc-50">
-                <ArrowRight
-                  size={17}
-                  className="transition-transform group-hover:translate-x-1"
-                />
+              <span className="rounded-full bg-zinc-50 p-2.5 text-zinc-900 group-hover:bg-zinc-600 group-hover:text-zinc-50">
+                <ArrowRight size={17} />
               </span>
             </Link>
           </div>
