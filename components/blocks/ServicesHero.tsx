@@ -33,7 +33,7 @@ const ServicesHero: React.FC = () => {
           animate={"visible"}
           variants={variants}
           transition={{ delay: 0, ...BASE_TRANSITION }}
-          className="mb-6 mt-48 text-center text-8xl font-semibold tracking-tighter text-zinc-900"
+          className="mb-6 mt-48 text-center text-6xl md:text-8xl font-semibold tracking-tighter text-zinc-900"
         >
           Our Services
         </motion.h1>
@@ -45,7 +45,7 @@ const ServicesHero: React.FC = () => {
         >
           What can we do for you?
         </motion.p>
-        <div className="grid w-full grid-cols-2 gap-8 px-24 md:grid-cols-4">
+        <div className="grid w-full grid-cols-2 gap-4 md:gap-8 md:px-24 md:grid-cols-4">
           <Link
             href={"/services/web-development/"}
             className="group outline-hidden"
