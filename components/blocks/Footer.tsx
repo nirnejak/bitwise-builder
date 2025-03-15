@@ -16,7 +16,7 @@ const Footer: React.FC = () => {
               Bitwise Builder
             </Link>
             <p className="mt-4 text-sm tracking-tight text-zinc-600">
-              © 2024, By Bitwise Builder Pvt Ltd.
+              © 2025, By Bitwise Builder Pvt Ltd.
             </p>
             <div className="mt-auto flex">
               <Link
