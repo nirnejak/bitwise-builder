@@ -39,7 +39,7 @@ const Services: React.FC = () => {
         </motion.h2>
       </div>
       <div className="grid flex-1 grid-cols-2 gap-4 md:gap-8">
-        <Link href={"/services/web-development/"}>
+        <Link href={"/services/website-design/"}>
           <motion.div
             initial="hidden"
             animate={controls}
@@ -54,11 +54,11 @@ const Services: React.FC = () => {
               />
             </span>
             <p className="mt-auto text-xl md:text-2xl leading-none tracking-tight group-hover:text-zinc-50">
-              Web Development
+              Website Design
             </p>
           </motion.div>
         </Link>
-        <Link href={"/services/app-development/"}>
+        <Link href={"/services/product-design/"}>
           <motion.div
             initial="hidden"
             animate={controls}
@@ -73,11 +73,11 @@ const Services: React.FC = () => {
               />
             </span>
             <p className="mt-auto text-xl md:text-2xl leading-none tracking-tight group-hover:text-zinc-50">
-              App Development
+              Product Design
             </p>
           </motion.div>
         </Link>
-        <Link href={"/services/cloud-devops/"}>
+        <Link href={"/services/website-development/"}>
           <motion.div
             initial="hidden"
             animate={controls}
@@ -92,11 +92,11 @@ const Services: React.FC = () => {
               />
             </span>
             <p className="mt-auto text-xl md:text-2xl leading-none tracking-tight group-hover:text-zinc-50">
-              Cloud & DevOps
+              Website Development
             </p>
           </motion.div>
         </Link>
-        <Link href={"/services/product-design/"}>
+        <Link href={"/services/product-development/"}>
           <motion.div
             initial="hidden"
             animate={controls}
@@ -111,7 +111,7 @@ const Services: React.FC = () => {
               />
             </span>
             <p className="mt-auto text-xl md:text-2xl leading-none tracking-tight group-hover:text-zinc-50">
-              Product Design
+              Product Development
             </p>
           </motion.div>
         </Link>
