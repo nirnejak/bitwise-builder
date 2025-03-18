@@ -47,8 +47,8 @@ const HomeHero: React.FC = () => {
           className="flex items-start md:items-center justify-between flex-col md:flex-row gap-8"
         >
           <p className="max-w-[690px] text-base tracking-tight text-zinc-600 md:text-lg">
-            Building high-performance, scalable web apps with Python, Django,
-            React, and Next.js. Empowering businesses with seamless user
+            Building high-performance, scalable web apps with React, TypeScript,
+            Next.js, and Astro. Empowering businesses with seamless user
             experiences and innovative digital solutions.
           </p>
           <div>
