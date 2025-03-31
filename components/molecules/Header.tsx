@@ -54,7 +54,7 @@ const Header: React.FC = () => {
               href={"/"}
               className="text-xl font-semibold tracking-tighter text-zinc-900"
             >
-              Oven Studio
+              Bitwise Builder
             </Link>
             <nav className="flex items-center gap-6 font-medium tracking-tight text-zinc-500">
               <Link

@@ -8,9 +8,9 @@ import { generateMetadata } from "@/utils/seo"
 
 export const metadata: Metadata = generateMetadata({
   path: "/",
-  title: "Not Found | Oven Studio",
+  title: "Not Found | Bitwise Builder",
   description:
-    "Can't find the page you're looking for on the Oven Studio website.",
+    "Can't find the page you're looking for on the Bitwise Builder website.",
 })
 
 const NotFoundPage: React.FC = () => {

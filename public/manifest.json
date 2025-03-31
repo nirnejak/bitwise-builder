@@ -4,9 +4,9 @@
     "display": "standalone",
     "scope": "/",
     "start_url": "/",
-    "name": "Oven Studio",
-    "short_name": "Oven Studio",
-    "description": "Oven Studio - Baking Beautiful Software",
+    "name": "Bitwise Builder",
+    "short_name": "Bitwise Builder",
+    "description": "Bitwise Builder - Baking Beautiful Software",
     "icons": [
         {
             "src": "/path-to-icons/icon-192x192.png",

@@ -1,7 +1,7 @@
 const config = {
-  baseUrl: "https://oven.studio",
-  appName: "Oven Studio",
-  appDescription: "Oven Studio, a design-driven development agency",
+  baseUrl: "https://bitwise-builder.vercel.app",
+  appName: "Bitwise Builder",
+  appDescription: "Bitwise Builder, Python and Django development agency",
   creator: "Jitendra Nirnejak",
   authorName: "Jitendra Nirnejak",
   authorUrl: "hello@nirnejak.com",
