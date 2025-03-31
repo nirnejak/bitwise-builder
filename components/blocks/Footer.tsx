@@ -8,7 +8,7 @@ const Footer: React.FC = () => {
     <footer className="w-full p-5">
       <div className="rounded-3xl bg-zinc-100">
         <div className="container grid grid-cols-5 gap-24 px-5 py-32 text-zinc-500 xl:px-0">
-          <div className="col-span-3 flex flex-col">
+          <div className="col-span-2 flex flex-col">
             <Link
               href={"/"}
               className="text-2xl font-semibold leading-none tracking-tighter text-zinc-900"
@@ -49,30 +49,43 @@ const Footer: React.FC = () => {
               Careers
               <CircleFill size={5} className="text-pink-600" />
             </Link>
+            <Link
+              href={"/contact-us/"}
+              className="transition-colors hover:text-zinc-900"
+            >
+              Contact
+            </Link>
           </div>
           <div className="flex flex-col gap-5 tracking-tight">
             <p className="font-semibold text-zinc-900">Services</p>
 
             <Link href={"/"} className="transition-colors hover:text-zinc-900">
-              Web Development
-            </Link>
-            <Link href={"/"} className="transition-colors hover:text-zinc-900">
-              App Development
-            </Link>
-            <Link href={"/"} className="transition-colors hover:text-zinc-900">
-              Cloud and DevOps
-            </Link>
-            <Link href={"/"} className="transition-colors hover:text-zinc-900">
-              Django Development
-            </Link>
-            <Link href={"/"} className="transition-colors hover:text-zinc-900">
-              Flask Development
-            </Link>
-            <Link href={"/"} className="transition-colors hover:text-zinc-900">
-              Spring Development
+              Website Design
             </Link>
             <Link href={"/"} className="transition-colors hover:text-zinc-900">
               Product Design
+            </Link>
+            <Link href={"/"} className="transition-colors hover:text-zinc-900">
+              Website Development
+            </Link>
+            <Link href={"/"} className="transition-colors hover:text-zinc-900">
+              Product Development
+            </Link>
+          </div>
+          <div className="flex flex-col gap-5 tracking-tight">
+            <p className="font-semibold text-zinc-900">Technologies</p>
+
+            <Link href={"/"} className="transition-colors hover:text-zinc-900">
+              React Development
+            </Link>
+            <Link href={"/"} className="transition-colors hover:text-zinc-900">
+              Node.js Development
+            </Link>
+            <Link href={"/"} className="transition-colors hover:text-zinc-900">
+              Next.js Development
+            </Link>
+            <Link href={"/"} className="transition-colors hover:text-zinc-900">
+              Astro Development
             </Link>
           </div>
         </div>
