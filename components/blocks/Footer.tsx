@@ -43,12 +43,6 @@ const Footer: React.FC = () => {
               Projects
             </Link>
             <Link
-              href={"/about/"}
-              className="transition-colors hover:text-zinc-900"
-            >
-              About
-            </Link>
-            <Link
               href={"/careers/"}
               className="flex items-center gap-1.5 transition-colors hover:text-zinc-900"
             >
