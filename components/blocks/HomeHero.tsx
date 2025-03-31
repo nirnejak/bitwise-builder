@@ -64,7 +64,7 @@ const HomeHero: React.FC = () => {
           </div>
         </motion.div>
       </section>
-      <section style={{ maxWidth: "100vw" }} className="overflow-x-hidden">
+      <section className="overflow-x-hidden max-w-dvw">
         <motion.div
           initial={{ translateY: 10, opacity: 0 }}
           animate={{ translateY: 0, opacity: 1 }}
@@ -74,52 +74,47 @@ const HomeHero: React.FC = () => {
           <Image
             src={ProjectImage2}
             alt="Team working together"
-            className="h-[600px] w-[900px] rounded-3xl border border-zinc-100"
+            className="h-[600px] w-[900px] rounded-3xl border border-zinc-100 object-cover"
             quality={100}
             priority
             width={1538.5}
             height={1054}
-            style={{ objectFit: "cover", objectPosition: "left" }}
           />
           <Image
             src={ProjectImage5}
             alt="Team working together"
-            className="h-[600px] w-[900px] rounded-3xl border border-zinc-100"
+            className="h-[600px] w-[900px] rounded-3xl border border-zinc-100 object-cover"
             quality={100}
             priority
             width={1538.5}
             height={1054}
-            style={{ objectFit: "cover" }}
           />
           <Image
             src={ProjectImage3}
             alt="Team working together"
-            className="h-[600px] w-[900px] rounded-3xl border border-zinc-100"
+            className="h-[600px] w-[900px] rounded-3xl border border-zinc-100 object-cover  "
             quality={100}
             priority
             width={1538.5}
             height={1054}
-            style={{ objectFit: "cover" }}
           />
           <Image
             src={ProjectImage4}
             alt="Team working together"
-            className="h-[600px] w-[900px] rounded-3xl border border-zinc-100"
+            className="h-[600px] w-[900px] rounded-3xl border border-zinc-100 object-cover"
             quality={100}
             priority
             width={1538.5}
             height={1054}
-            style={{ objectFit: "cover" }}
           />
           <Image
             src={ProjectImage1}
             alt="Team working together"
-            className="h-[600px] w-[900px] rounded-3xl border border-zinc-100"
+            className="h-[600px] w-[900px] rounded-3xl border border-zinc-100 object-cover"
             quality={100}
             priority
             width={1538.5}
             height={1054}
-            style={{ objectFit: "cover" }}
           />
         </motion.div>
       </section>

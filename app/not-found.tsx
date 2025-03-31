@@ -15,7 +15,7 @@ export const metadata: Metadata = generateMetadata({
 
 const NotFoundPage: React.FC = () => {
   return (
-    <main className="grid h-[80vh] place-content-center text-center">
+    <main className="grid h-dvh place-content-center text-center">
       <h1 className="mb-12 text-6xl font-semibold tracking-tighter text-zinc-900">
         Seems like you{"'"}re lost.
       </h1>
