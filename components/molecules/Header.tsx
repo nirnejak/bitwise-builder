@@ -70,12 +70,6 @@ const Header: React.FC = () => {
                 Projects
               </Link>
               <Link
-                href={"/blogs/"}
-                className="transition-colors hover:text-zinc-900"
-              >
-                Blogs
-              </Link>
-              <Link
                 href={"/about/"}
                 className="transition-colors hover:text-zinc-900"
               >

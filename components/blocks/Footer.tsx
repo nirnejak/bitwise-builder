@@ -8,7 +8,7 @@ const Footer: React.FC = () => {
     <footer className="w-full p-5">
       <div className="rounded-3xl bg-zinc-100">
         <div className="container grid grid-cols-5 gap-24 px-5 py-32 text-zinc-500 xl:px-0">
-          <div className="col-span-2 flex flex-col">
+          <div className="col-span-3 flex flex-col">
             <Link
               href={"/"}
               className="text-2xl font-semibold leading-none tracking-tighter text-zinc-900"
@@ -79,19 +79,6 @@ const Footer: React.FC = () => {
             </Link>
             <Link href={"/"} className="transition-colors hover:text-zinc-900">
               Product Design
-            </Link>
-          </div>
-          <div className="flex flex-col gap-5 tracking-tight">
-            <p className="font-semibold text-zinc-900">Recent Blogs</p>
-
-            <Link href={"/"} className="transition-colors hover:text-zinc-900">
-              How to structure the Django Project?
-            </Link>
-            <Link href={"/"} className="transition-colors hover:text-zinc-900">
-              How to customize REST API responses per user in Django?
-            </Link>
-            <Link href={"/"} className="transition-colors hover:text-zinc-900">
-              How to make REST APIs in Django using Django-rest-framework?
             </Link>
           </div>
         </div>

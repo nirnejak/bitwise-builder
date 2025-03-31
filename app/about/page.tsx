@@ -8,10 +8,9 @@ import { BASE_TRANSITION } from "@/utils/animation"
 import { generateMetadata } from "@/utils/seo"
 
 export const metadata: Metadata = generateMetadata({
-  path: "/blogs/",
-  title: "Blogs | Oven Studio",
-  description:
-    "Blogs on tech by team at Oven Studio, a design-driven development agency.",
+  path: "/about/",
+  title: "About Us | Oven Studio",
+  description: "About Oven Studio, a design-driven development agency.",
 })
 
 const variants = {
