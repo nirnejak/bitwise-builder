@@ -1,6 +1,6 @@
 {
-  "name": "bitwise-builder",
-  "description": "Bitwise Builder Website",
+  "name": "oven-studio",
+  "description": "Oven Studio Website",
   "version": "1.0.0",
   "type": "module",
   "author": "Jitendra Nirnejak <jeetnirnejak@gmail.com>",
@@ -64,9 +64,9 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/nirnejak/bitwise-builder"
+    "url": "https://github.com/nirnejak/oven-studio"
   },
   "bugs": {
-    "url": "https://github.com/nirnejak/bitwise-builder/issues"
+    "url": "https://github.com/nirnejak/oven-studio/issues"
   }
 }

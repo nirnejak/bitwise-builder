@@ -1,7 +1,7 @@
 const config = {
-  baseUrl: "https://example.com",
-  appName: "Bitwise Builder",
-  appDescription: "Bitwise Builder, development agency",
+  baseUrl: "https://oven.studio",
+  appName: "Oven Studio",
+  appDescription: "Oven Studio, a design-driven development agency",
   creator: "Jitendra Nirnejak",
   authorName: "Jitendra Nirnejak",
   authorUrl: "hello@nirnejak.com",
@@ -13,7 +13,7 @@ const config = {
     "TailwindCSS",
     "TypeScript",
   ],
-  twitterSite: "@site",
-  twitterCreator: "@creator",
+  twitterSite: "@jeetnirnejak",
+  twitterCreator: "@jeetnirnejak",
 }
 export default config

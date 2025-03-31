@@ -7,9 +7,9 @@ import { generateMetadata } from "@/utils/seo"
 
 export const metadata: Metadata = generateMetadata({
   path: "/services/",
-  title: "Services | Bitwise Builder",
+  title: "Services | Oven Studio",
   description:
-    "Learn about the services we provide at Bitwise Builder, an development agency specializing in Python and Django, we and build high performance web applications.",
+    "Learn about the services we provide at Oven Studio, an development agency specializing in Python and Django, we and build high performance web applications.",
 })
 
 const Home: React.FC = () => {

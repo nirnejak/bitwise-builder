@@ -11,9 +11,9 @@ import { generateMetadata } from "@/utils/seo"
 
 export const metadata: Metadata = generateMetadata({
   path: "/blogs/",
-  title: "Blogs | Bitwise Builder",
+  title: "Blogs | Oven Studio",
   description:
-    "Blogs on tech by team at Bitwise Builder, an development agency specializing in Python and Django, we and build high performance web applications.",
+    "Blogs on tech by team at Oven Studio, a design-driven development agency.",
 })
 
 const blogs = [

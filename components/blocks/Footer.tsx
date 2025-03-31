@@ -1,7 +1,7 @@
 import * as React from "react"
 
-import { CircleFill, ArrowRight } from "akar-icons"
 import Link from "next/link"
+import { CircleFill, ArrowRight } from "akar-icons"
 
 const Footer: React.FC = () => {
   return (
@@ -13,10 +13,10 @@ const Footer: React.FC = () => {
               href={"/"}
               className="text-2xl font-semibold leading-none tracking-tighter text-zinc-900"
             >
-              Bitwise Builder
+              Oven Studio
             </Link>
             <p className="mt-4 text-sm tracking-tight text-zinc-600">
-              © 2025, By Bitwise Builder Pvt Ltd.
+              © 2025, By Oven Studio Pvt Ltd.
             </p>
             <div className="mt-auto flex">
               <Link
