@@ -1,3 +1,5 @@
+import { AnimationGeneratorType } from "motion"
+
 export const BASE_TRANSITION = {
   duration: 0.15,
   type: "spring" as AnimationGeneratorType,
