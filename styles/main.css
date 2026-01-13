@@ -18,7 +18,7 @@
 }
 
 .container {
-  @apply px-2 mx-auto md:px-0 md:max-w-[1200px];
+  @apply px-2 mx-auto md:px-0 md:max-w-300;
 }
 
 @theme {
