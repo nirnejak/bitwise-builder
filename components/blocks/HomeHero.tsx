@@ -16,13 +16,21 @@ import ProjectImage4 from "@/assets/projects/settings.jpeg"
 const HomeHero: React.FC = () => {
   return (
     <>
-      <section className="container mb-24 mt-40 px-5 xl:px-0">
+      <section
+        className="
+          container mt-40 mb-24 px-5
+          xl:px-0
+        "
+      >
         <div className="flex">
           <motion.span
             initial={{ translateY: 10, opacity: 0, filter: "blur(20px)" }}
             animate={{ translateY: 0, opacity: 1, filter: "none" }}
             transition={{ delay: 0, ...BASE_TRANSITION }}
-            className="relative flex items-center gap-1.5 rounded-full bg-pink-100 px-3.5 py-1.5 pl-7 text-xs text-pink-700"
+            className="
+              relative flex items-center gap-1.5 rounded-full bg-pink-100 px-3.5
+              py-1.5 pl-7 text-xs text-pink-700
+            "
           >
             <CircleFill
               size={5}
@@ -36,7 +44,11 @@ const HomeHero: React.FC = () => {
           initial={{ translateY: 10, opacity: 0, filter: "blur(20px)" }}
           animate={{ translateY: 0, opacity: 1, filter: "none" }}
           transition={{ delay: 0.1, ...BASE_TRANSITION }}
-          className="mb-6 md:mb-12 mt-6 md:mt-9 text-6xl font-semibold tracking-tighter text-zinc-900 md:text-8xl max-w-[12ch]"
+          className="
+            my-6 max-w-[12ch] text-6xl font-semibold tracking-tighter
+            text-zinc-900
+            md:mt-9 md:mb-12 md:text-8xl
+          "
         >
           A single place for all your dev work.
         </motion.h1>
@@ -44,9 +56,17 @@ const HomeHero: React.FC = () => {
           initial={{ translateY: 10, opacity: 0, filter: "blur(20px)" }}
           animate={{ translateY: 0, opacity: 1, filter: "none" }}
           transition={{ delay: 0.2, ...BASE_TRANSITION }}
-          className="flex items-start md:items-center justify-between flex-col md:flex-row gap-8"
+          className="
+            flex flex-col items-start justify-between gap-8
+            md:flex-row md:items-center
+          "
         >
-          <p className="max-w-[690px] text-base tracking-tight text-zinc-600 md:text-lg">
+          <p
+            className="
+              max-w-[690px] text-base tracking-tight text-zinc-600
+              md:text-lg
+            "
+          >
             Building high-performance, scalable web apps with React, TypeScript,
             Next.js, and Astro. Empowering businesses with seamless user
             experiences and innovative digital solutions.
@@ -54,17 +74,25 @@ const HomeHero: React.FC = () => {
           <div>
             <Link
               href={"/contact-us/"}
-              className="group flex items-center rounded-full bg-zinc-900 p-3 text-zinc-50"
+              className="
+                group flex items-center rounded-full bg-zinc-900 p-3
+                text-zinc-50
+              "
             >
-              <span className="pl-4 pr-8">Contact us</span>
-              <span className="rounded-full bg-zinc-50 p-2.5 text-zinc-900 group-hover:bg-zinc-600 group-hover:text-zinc-50">
+              <span className="pr-8 pl-4">Contact us</span>
+              <span
+                className="
+                  rounded-full bg-zinc-50 p-2.5 text-zinc-900
+                  group-hover:bg-zinc-600 group-hover:text-zinc-50
+                "
+              >
                 <ArrowRight size={17} />
               </span>
             </Link>
           </div>
         </motion.div>
       </section>
-      <section className="overflow-x-hidden max-w-dvw">
+      <section className="max-w-dvw overflow-x-hidden">
         <motion.div
           initial={{ translateY: 10, opacity: 0 }}
           animate={{ translateY: 0, opacity: 1 }}
@@ -74,7 +102,9 @@ const HomeHero: React.FC = () => {
           <Image
             src={ProjectImage2}
             alt="Team working together"
-            className="h-150 w-225 rounded-3xl border border-zinc-100 object-cover"
+            className="
+              h-150 w-225 rounded-3xl border border-zinc-100 object-cover
+            "
             quality={100}
             priority
             width={1538.5}
@@ -83,7 +113,10 @@ const HomeHero: React.FC = () => {
           <Image
             src={ProjectImage5}
             alt="Team working together"
-            className="h-[600px] w-[900px] rounded-3xl border border-zinc-100 object-cover"
+            className="
+              h-[600px] w-[900px] rounded-3xl border border-zinc-100
+              object-cover
+            "
             quality={100}
             priority
             width={1538.5}
@@ -92,7 +125,10 @@ const HomeHero: React.FC = () => {
           <Image
             src={ProjectImage3}
             alt="Team working together"
-            className="h-[600px] w-[900px] rounded-3xl border border-zinc-100 object-cover  "
+            className="
+              h-[600px] w-[900px] rounded-3xl border border-zinc-100
+              object-cover
+            "
             quality={100}
             priority
             width={1538.5}
@@ -101,7 +137,10 @@ const HomeHero: React.FC = () => {
           <Image
             src={ProjectImage4}
             alt="Team working together"
-            className="h-[600px] w-[900px] rounded-3xl border border-zinc-100 object-cover"
+            className="
+              h-[600px] w-[900px] rounded-3xl border border-zinc-100
+              object-cover
+            "
             quality={100}
             priority
             width={1538.5}
@@ -110,7 +149,10 @@ const HomeHero: React.FC = () => {
           <Image
             src={ProjectImage1}
             alt="Team working together"
-            className="h-[600px] w-[900px] rounded-3xl border border-zinc-100 object-cover"
+            className="
+              h-[600px] w-[900px] rounded-3xl border border-zinc-100
+              object-cover
+            "
             quality={100}
             priority
             width={1538.5}

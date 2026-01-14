@@ -48,7 +48,12 @@ const Header: React.FC = () => {
             : ""
         )}
       >
-        <div className="container flex items-center justify-between px-5 xl:px-0">
+        <div
+          className="
+            container flex items-center justify-between px-5
+            xl:px-0
+          "
+        >
           <div className="flex items-center gap-20 leading-none">
             <Link
               href={"/"}
@@ -56,22 +61,35 @@ const Header: React.FC = () => {
             >
               Bitwise Builder
             </Link>
-            <nav className="flex items-center gap-6 font-medium tracking-tight text-zinc-500">
+            <nav
+              className="
+                flex items-center gap-6 font-medium tracking-tight text-zinc-500
+              "
+            >
               <Link
                 href={"/services/"}
-                className="transition-colors hover:text-zinc-900"
+                className="
+                  transition-colors
+                  hover:text-zinc-900
+                "
               >
                 Services
               </Link>
               <Link
                 href={"/projects/"}
-                className="transition-colors hover:text-zinc-900"
+                className="
+                  transition-colors
+                  hover:text-zinc-900
+                "
               >
                 Projects
               </Link>
               <Link
                 href={"/careers/"}
-                className="flex items-center gap-1.5 transition-colors hover:text-zinc-900"
+                className="
+                  flex items-center gap-1.5 transition-colors
+                  hover:text-zinc-900
+                "
               >
                 Careers
                 <CircleFill size={5} className="text-pink-600" />
@@ -81,13 +99,21 @@ const Header: React.FC = () => {
           <div className="flex items-center gap-2">
             <Link
               href={"/contact-us/"}
-              className="rounded-full bg-zinc-200 px-5 py-2.5 text-sm font-medium text-zinc-700 transition-colors hover:bg-zinc-300"
+              className="
+                rounded-full bg-zinc-200 px-5 py-2.5 text-sm font-medium
+                text-zinc-700 transition-colors
+                hover:bg-zinc-300
+              "
             >
               Contact us
             </Link>
             <Link
               href={"/contact-us/"}
-              className="rounded-full bg-zinc-900 px-5 py-2.5 text-sm font-medium text-zinc-50 transition-colors hover:bg-zinc-800"
+              className="
+                rounded-full bg-zinc-900 px-5 py-2.5 text-sm font-medium
+                text-zinc-50 transition-colors
+                hover:bg-zinc-800
+              "
             >
               Schedule call
             </Link>

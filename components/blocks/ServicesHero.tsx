@@ -26,14 +26,23 @@ const ServicesHero: React.FC = () => {
   }
 
   return (
-    <section className="container mb-48 px-5 xl:px-0">
+    <section
+      className="
+        container mb-48 px-5
+        xl:px-0
+      "
+    >
       <div>
         <motion.h1
           initial={"hidden"}
           animate={"visible"}
           variants={variants}
           transition={{ delay: 0, ...BASE_TRANSITION }}
-          className="mb-6 mt-48 text-center text-6xl md:text-8xl font-semibold tracking-tighter text-zinc-900"
+          className="
+            mt-48 mb-6 text-center text-6xl font-semibold tracking-tighter
+            text-zinc-900
+            md:text-8xl
+          "
         >
           Our Services
         </motion.h1>
@@ -41,11 +50,19 @@ const ServicesHero: React.FC = () => {
           initial={"hidden"}
           animate={"visible"}
           variants={variants}
-          className="mb-24 text-center text-base tracking-tight text-zinc-600 md:text-lg"
+          className="
+            mb-24 text-center text-base tracking-tight text-zinc-600
+            md:text-lg
+          "
         >
           What can we do for you?
         </motion.p>
-        <div className="grid w-full grid-cols-2 gap-4 md:gap-8 md:px-24 md:grid-cols-4">
+        <div
+          className="
+            grid w-full grid-cols-2 gap-4
+            md:grid-cols-4 md:gap-8 md:px-24
+          "
+        >
           <Link
             href={"/services/web-development/"}
             className="group outline-hidden"
@@ -55,15 +72,37 @@ const ServicesHero: React.FC = () => {
               animate={"visible"}
               variants={variants}
               transition={{ delay: 0.2, ...BASE_TRANSITION }}
-              className="relative flex aspect-square rounded-3xl bg-zinc-100 p-5 transition-colors group-hover:bg-zinc-900 group-focus:bg-zinc-900"
+              className="
+                relative flex aspect-square rounded-3xl bg-zinc-100 p-5
+                transition-colors
+                group-hover:bg-zinc-900
+                group-focus:bg-zinc-900
+              "
             >
-              <span className="absolute right-3 top-3 rounded-full bg-zinc-900 p-2.5 text-zinc-50">
+              <span
+                className="
+                  absolute top-3 right-3 rounded-full bg-zinc-900 p-2.5
+                  text-zinc-50
+                "
+              >
                 <ArrowUpRight
                   size={17}
-                  className="transition-transform group-hover:-translate-y-1 group-hover:translate-x-1 group-hover:scale-150 group-focus:-translate-y-1 group-focus:translate-x-1 group-focus:scale-150"
+                  className="
+                    transition-transform
+                    group-hover:translate-x-1 group-hover:-translate-y-1
+                    group-hover:scale-150
+                    group-focus:translate-x-1 group-focus:-translate-y-1
+                    group-focus:scale-150
+                  "
                 />
               </span>
-              <p className="mt-auto text-xl leading-none tracking-tight group-hover:text-zinc-50 group-focus:text-zinc-50">
+              <p
+                className="
+                  mt-auto text-xl leading-none tracking-tight
+                  group-hover:text-zinc-50
+                  group-focus:text-zinc-50
+                "
+              >
                 Web Development
               </p>
             </motion.div>
@@ -77,15 +116,37 @@ const ServicesHero: React.FC = () => {
               animate={"visible"}
               variants={variants}
               transition={{ delay: 0.3, ...BASE_TRANSITION }}
-              className="relative flex aspect-square rounded-3xl bg-zinc-100 p-5 transition-colors group-hover:bg-zinc-900 group-focus:bg-zinc-900"
+              className="
+                relative flex aspect-square rounded-3xl bg-zinc-100 p-5
+                transition-colors
+                group-hover:bg-zinc-900
+                group-focus:bg-zinc-900
+              "
             >
-              <span className="absolute right-3 top-3 rounded-full bg-zinc-900 p-2.5 text-zinc-50">
+              <span
+                className="
+                  absolute top-3 right-3 rounded-full bg-zinc-900 p-2.5
+                  text-zinc-50
+                "
+              >
                 <ArrowUpRight
                   size={17}
-                  className="transition-transform group-hover:-translate-y-1 group-hover:translate-x-1 group-hover:scale-150 group-focus:-translate-y-1 group-focus:translate-x-1 group-focus:scale-150"
+                  className="
+                    transition-transform
+                    group-hover:translate-x-1 group-hover:-translate-y-1
+                    group-hover:scale-150
+                    group-focus:translate-x-1 group-focus:-translate-y-1
+                    group-focus:scale-150
+                  "
                 />
               </span>
-              <p className="mt-auto text-xl leading-none tracking-tight group-hover:text-zinc-50 group-focus:text-zinc-50">
+              <p
+                className="
+                  mt-auto text-xl leading-none tracking-tight
+                  group-hover:text-zinc-50
+                  group-focus:text-zinc-50
+                "
+              >
                 App Development
               </p>
             </motion.div>
@@ -99,15 +160,37 @@ const ServicesHero: React.FC = () => {
               animate={"visible"}
               variants={variants}
               transition={{ delay: 0.4, ...BASE_TRANSITION }}
-              className="relative flex aspect-square rounded-3xl bg-zinc-100 p-5 transition-colors group-hover:bg-zinc-900 group-focus:bg-zinc-900"
+              className="
+                relative flex aspect-square rounded-3xl bg-zinc-100 p-5
+                transition-colors
+                group-hover:bg-zinc-900
+                group-focus:bg-zinc-900
+              "
             >
-              <span className="absolute right-3 top-3 rounded-full bg-zinc-900 p-2.5 text-zinc-50">
+              <span
+                className="
+                  absolute top-3 right-3 rounded-full bg-zinc-900 p-2.5
+                  text-zinc-50
+                "
+              >
                 <ArrowUpRight
                   size={17}
-                  className="transition-transform group-hover:-translate-y-1 group-hover:translate-x-1 group-hover:scale-150 group-focus:-translate-y-1 group-focus:translate-x-1 group-focus:scale-150"
+                  className="
+                    transition-transform
+                    group-hover:translate-x-1 group-hover:-translate-y-1
+                    group-hover:scale-150
+                    group-focus:translate-x-1 group-focus:-translate-y-1
+                    group-focus:scale-150
+                  "
                 />
               </span>
-              <p className="mt-auto text-xl leading-none tracking-tight group-hover:text-zinc-50 group-focus:text-zinc-50">
+              <p
+                className="
+                  mt-auto text-xl leading-none tracking-tight
+                  group-hover:text-zinc-50
+                  group-focus:text-zinc-50
+                "
+              >
                 Cloud & DevOps
               </p>
             </motion.div>
@@ -121,15 +204,37 @@ const ServicesHero: React.FC = () => {
               animate={"visible"}
               variants={variants}
               transition={{ delay: 0.5, ...BASE_TRANSITION }}
-              className="relative flex aspect-square rounded-3xl bg-zinc-100 p-5 transition-colors group-hover:bg-zinc-900 group-focus:bg-zinc-900"
+              className="
+                relative flex aspect-square rounded-3xl bg-zinc-100 p-5
+                transition-colors
+                group-hover:bg-zinc-900
+                group-focus:bg-zinc-900
+              "
             >
-              <span className="absolute right-3 top-3 rounded-full bg-zinc-900 p-2.5 text-zinc-50">
+              <span
+                className="
+                  absolute top-3 right-3 rounded-full bg-zinc-900 p-2.5
+                  text-zinc-50
+                "
+              >
                 <ArrowUpRight
                   size={17}
-                  className="transition-transform group-hover:-translate-y-1 group-hover:translate-x-1 group-hover:scale-150 group-focus:-translate-y-1 group-focus:translate-x-1 group-focus:scale-150"
+                  className="
+                    transition-transform
+                    group-hover:translate-x-1 group-hover:-translate-y-1
+                    group-hover:scale-150
+                    group-focus:translate-x-1 group-focus:-translate-y-1
+                    group-focus:scale-150
+                  "
                 />
               </span>
-              <p className="mt-auto text-xl leading-none tracking-tight group-hover:text-zinc-50 group-focus:text-zinc-50">
+              <p
+                className="
+                  mt-auto text-xl leading-none tracking-tight
+                  group-hover:text-zinc-50
+                  group-focus:text-zinc-50
+                "
+              >
                 Product Design
               </p>
             </motion.div>

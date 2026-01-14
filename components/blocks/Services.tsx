@@ -26,34 +26,68 @@ const Services: React.FC = () => {
   }
 
   return (
-    <section className="container mb-48 flex flex-col md:flex-row px-5 xl:px-0">
+    <section
+      className="
+        container mb-48 flex flex-col px-5
+        md:flex-row
+        xl:px-0
+      "
+    >
       <div className="flex-1" ref={ref}>
         <motion.h2
           initial="hidden"
           animate={controls}
           variants={variants}
           transition={{ delay: 0, ...BASE_TRANSITION }}
-          className="mb-12 mt-9 text-5xl md:text-7xl font-semibold tracking-tighter text-zinc-900 max-w-[9ch]"
+          className="
+            mt-9 mb-12 max-w-[9ch] text-5xl font-semibold tracking-tighter
+            text-zinc-900
+            md:text-7xl
+          "
         >
           What can we do for you?
         </motion.h2>
       </div>
-      <div className="grid flex-1 grid-cols-2 gap-4 md:gap-8">
+      <div
+        className="
+          grid flex-1 grid-cols-2 gap-4
+          md:gap-8
+        "
+      >
         <Link href={"/services/website-design/"}>
           <motion.div
             initial="hidden"
             animate={controls}
             variants={variants}
             transition={{ delay: 0.1, ...BASE_TRANSITION }}
-            className="group relative flex aspect-square rounded-3xl bg-zinc-100 p-5 transition-colors hover:bg-zinc-900"
+            className="
+              group relative flex aspect-square rounded-3xl bg-zinc-100 p-5
+              transition-colors
+              hover:bg-zinc-900
+            "
           >
-            <span className="absolute right-3 top-3 rounded-full bg-zinc-900 p-2.5 text-zinc-50">
+            <span
+              className="
+                absolute top-3 right-3 rounded-full bg-zinc-900 p-2.5
+                text-zinc-50
+              "
+            >
               <ArrowUpRight
                 size={17}
-                className="transition-transform group-hover:-translate-y-1 group-hover:translate-x-1 group-hover:scale-150"
+                className="
+                  transition-transform
+                  group-hover:translate-x-1 group-hover:-translate-y-1
+                  group-hover:scale-150
+                "
               />
             </span>
-            <p className="mt-auto text-xl md:text-2xl leading-none tracking-tight group-hover:text-zinc-50">
+            <p
+              className="
+                mt-auto text-xl leading-none tracking-tight
+                group-hover:text-zinc-50
+                md:text-2xl
+              "
+            >
               Website Design
             </p>
           </motion.div>
@@ -64,15 +98,34 @@ const Services: React.FC = () => {
             animate={controls}
             variants={variants}
             transition={{ delay: 0.2, ...BASE_TRANSITION }}
-            className="group relative flex aspect-square rounded-3xl bg-zinc-100 p-5 transition-colors hover:bg-zinc-900"
+            className="
+              group relative flex aspect-square rounded-3xl bg-zinc-100 p-5
+              transition-colors
+              hover:bg-zinc-900
+            "
           >
-            <span className="absolute right-3 top-3 rounded-full bg-zinc-900 p-2.5 text-zinc-50">
+            <span
+              className="
+                absolute top-3 right-3 rounded-full bg-zinc-900 p-2.5
+                text-zinc-50
+              "
+            >
               <ArrowUpRight
                 size={17}
-                className="transition-transform group-hover:-translate-y-1 group-hover:translate-x-1 group-hover:scale-150"
+                className="
+                  transition-transform
+                  group-hover:translate-x-1 group-hover:-translate-y-1
+                  group-hover:scale-150
+                "
               />
             </span>
-            <p className="mt-auto text-xl md:text-2xl leading-none tracking-tight group-hover:text-zinc-50">
+            <p
+              className="
+                mt-auto text-xl leading-none tracking-tight
+                group-hover:text-zinc-50
+                md:text-2xl
+              "
+            >
               Product Design
             </p>
           </motion.div>
@@ -83,15 +136,34 @@ const Services: React.FC = () => {
             animate={controls}
             variants={variants}
             transition={{ delay: 0.3, ...BASE_TRANSITION }}
-            className="group relative flex aspect-square rounded-3xl bg-zinc-100 p-5 transition-colors hover:bg-zinc-900"
+            className="
+              group relative flex aspect-square rounded-3xl bg-zinc-100 p-5
+              transition-colors
+              hover:bg-zinc-900
+            "
           >
-            <span className="absolute right-3 top-3 rounded-full bg-zinc-900 p-2.5 text-zinc-50">
+            <span
+              className="
+                absolute top-3 right-3 rounded-full bg-zinc-900 p-2.5
+                text-zinc-50
+              "
+            >
               <ArrowUpRight
                 size={17}
-                className="transition-transform group-hover:-translate-y-1 group-hover:translate-x-1 group-hover:scale-150"
+                className="
+                  transition-transform
+                  group-hover:translate-x-1 group-hover:-translate-y-1
+                  group-hover:scale-150
+                "
               />
             </span>
-            <p className="mt-auto text-xl md:text-2xl leading-none tracking-tight group-hover:text-zinc-50">
+            <p
+              className="
+                mt-auto text-xl leading-none tracking-tight
+                group-hover:text-zinc-50
+                md:text-2xl
+              "
+            >
               Website Development
             </p>
           </motion.div>
@@ -102,15 +174,34 @@ const Services: React.FC = () => {
             animate={controls}
             variants={variants}
             transition={{ delay: 0.4, ...BASE_TRANSITION }}
-            className="group relative flex aspect-square rounded-3xl bg-zinc-100 p-5 transition-colors hover:bg-zinc-900"
+            className="
+              group relative flex aspect-square rounded-3xl bg-zinc-100 p-5
+              transition-colors
+              hover:bg-zinc-900
+            "
           >
-            <span className="absolute right-3 top-3 rounded-full bg-zinc-900 p-2.5 text-zinc-50">
+            <span
+              className="
+                absolute top-3 right-3 rounded-full bg-zinc-900 p-2.5
+                text-zinc-50
+              "
+            >
               <ArrowUpRight
                 size={17}
-                className="transition-transform group-hover:-translate-y-1 group-hover:translate-x-1 group-hover:scale-150"
+                className="
+                  transition-transform
+                  group-hover:translate-x-1 group-hover:-translate-y-1
+                  group-hover:scale-150
+                "
               />
             </span>
-            <p className="mt-auto text-xl md:text-2xl leading-none tracking-tight group-hover:text-zinc-50">
+            <p
+              className="
+                mt-auto text-xl leading-none tracking-tight
+                group-hover:text-zinc-50
+                md:text-2xl
+              "
+            >
               Product Development
             </p>
           </motion.div>
