@@ -74,7 +74,7 @@ const HomeHero: React.FC = () => {
           <Image
             src={ProjectImage2}
             alt="Team working together"
-            className="h-[600px] w-[900px] rounded-3xl border border-zinc-100 object-cover"
+            className="h-150 w-225 rounded-3xl border border-zinc-100 object-cover"
             quality={100}
             priority
             width={1538.5}
