@@ -8,7 +8,7 @@ import { renderSchemaTags } from "@/utils/seo"
 import Footer from "@/components/blocks/Footer"
 import Header from "@/components/molecules/Header"
 
-import "../styles/main.css"
+import "./main.css"
 
 const sansFont = Instrument_Sans({
   variable: "--sans-font",
