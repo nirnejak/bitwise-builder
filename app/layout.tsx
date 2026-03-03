@@ -1,12 +1,10 @@
-import * as React from "react"
-
 import type { Viewport } from "next"
 import { Instrument_Sans } from "next/font/google"
-
-import classNames from "@/utils/classNames"
-import { renderSchemaTags } from "@/utils/seo"
+import type * as React from "react"
 import Footer from "@/components/blocks/Footer"
 import Header from "@/components/molecules/Header"
+import classNames from "@/utils/classNames"
+import { renderSchemaTags } from "@/utils/seo"
 
 import "./main.css"
 

@@ -1,7 +1,7 @@
 "use client"
-import * as React from "react"
 
 import { motion } from "motion/react"
+import * as React from "react"
 
 import { BASE_TRANSITION } from "@/utils/animation"
 
@@ -17,19 +17,12 @@ const ContactForm: React.FC = () => {
   }
 
   return (
-    <section
-      className="
-        container mt-40 mb-24 px-5
-        xl:px-0
-      "
-    >
+    <section className="container mt-40 mb-24 px-5 xl:px-0">
       <motion.h1
         initial={{ translateY: 10, opacity: 0 }}
         animate={{ translateY: 0, opacity: 1 }}
         transition={{ delay: 0.1, ...BASE_TRANSITION }}
-        className="
-          mt-9 mb-12 text-8xl font-semibold tracking-tighter text-zinc-900
-        "
+        className="mt-9 mb-12 font-semibold text-8xl text-zinc-900 tracking-tighter"
       >
         Contact us.
       </motion.h1>
@@ -38,21 +31,12 @@ const ContactForm: React.FC = () => {
         onSubmit={handleSubmit}
         className="flex max-w-(--breakpoint-sm) flex-col gap-4"
       >
-        <div
-          className="
-            grid grid-cols-1 gap-4
-            md:grid-cols-2
-          "
-        >
+        <div className="grid grid-cols-1 gap-4 md:grid-cols-2">
           <motion.input
             initial={{ translateY: 10, opacity: 0 }}
             animate={{ translateY: 0, opacity: 1 }}
             transition={{ delay: 0.2, ...BASE_TRANSITION }}
-            className="
-              rounded-2xl bg-zinc-100 px-6 py-5 leading-none text-zinc-900
-              placeholder:text-zinc-400
-              focus:outline-hidden
-            "
+            className="rounded-2xl bg-zinc-100 px-6 py-5 text-zinc-900 leading-none placeholder:text-zinc-400 focus:outline-hidden"
             type="text"
             placeholder="Name"
             name="name"
@@ -66,11 +50,7 @@ const ContactForm: React.FC = () => {
             initial={{ translateY: 10, opacity: 0 }}
             animate={{ translateY: 0, opacity: 1 }}
             transition={{ delay: 0.25, ...BASE_TRANSITION }}
-            className="
-              rounded-2xl bg-zinc-100 px-6 py-5 leading-none text-zinc-900
-              placeholder:text-zinc-400
-              focus:outline-hidden
-            "
+            className="rounded-2xl bg-zinc-100 px-6 py-5 text-zinc-900 leading-none placeholder:text-zinc-400 focus:outline-hidden"
             type="email"
             placeholder="Email"
             name="email"
@@ -85,11 +65,7 @@ const ContactForm: React.FC = () => {
           initial={{ translateY: 10, opacity: 0 }}
           animate={{ translateY: 0, opacity: 1 }}
           transition={{ delay: 0.3, ...BASE_TRANSITION }}
-          className="
-            rounded-2xl bg-zinc-100 px-6 py-5 text-zinc-900
-            placeholder:text-zinc-400
-            focus:outline-hidden
-          "
+          className="rounded-2xl bg-zinc-100 px-6 py-5 text-zinc-900 placeholder:text-zinc-400 focus:outline-hidden"
           placeholder="Message"
           rows={7}
           name="message"
@@ -104,11 +80,7 @@ const ContactForm: React.FC = () => {
           initial={{ translateY: 10, opacity: 0 }}
           animate={{ translateY: 0, opacity: 1 }}
           transition={{ delay: 0.35, ...BASE_TRANSITION }}
-          className="
-            mt-4 rounded-2xl bg-zinc-900 py-5 text-zinc-50
-            hover:bg-zinc-800
-            focus:bg-zinc-800 focus:outline-hidden
-          "
+          className="mt-4 rounded-2xl bg-zinc-900 py-5 text-zinc-50 hover:bg-zinc-800 focus:bg-zinc-800 focus:outline-hidden"
         >
           Send Message
         </motion.button>

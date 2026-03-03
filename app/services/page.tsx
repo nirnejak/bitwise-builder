@@ -1,6 +1,5 @@
-import * as React from "react"
-
-import { type Metadata } from "next"
+import type { Metadata } from "next"
+import type * as React from "react"
 
 import ServicesHero from "@/components/blocks/ServicesHero"
 import { generateMetadata } from "@/utils/seo"

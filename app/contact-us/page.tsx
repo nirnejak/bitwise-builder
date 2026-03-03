@@ -1,6 +1,5 @@
-import * as React from "react"
-
-import { type Metadata } from "next"
+import type { Metadata } from "next"
+import type * as React from "react"
 
 import ContactForm from "@/components/blocks/ContactForm"
 import { generateMetadata } from "@/utils/seo"

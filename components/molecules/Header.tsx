@@ -1,9 +1,9 @@
 "use client"
-import * as React from "react"
 
 import { CircleFill } from "akar-icons"
 import { motion } from "motion/react"
 import Link from "next/link"
+import * as React from "react"
 
 import { BASE_TRANSITION } from "@/utils/animation"
 import classNames from "@/utils/classNames"
@@ -38,7 +38,7 @@ const Header: React.FC = () => {
       initial={{ opacity: 0, filter: "blur(20px)" }}
       animate={{ opacity: 1, filter: "none" }}
       transition={BASE_TRANSITION}
-      className={classNames("fixed top-0 w-full px-5 z-9999")}
+      className={classNames("fixed top-0 z-9999 w-full px-5")}
     >
       <div
         className={classNames(
@@ -48,48 +48,30 @@ const Header: React.FC = () => {
             : ""
         )}
       >
-        <div
-          className="
-            container flex items-center justify-between px-5
-            xl:px-0
-          "
-        >
+        <div className="container flex items-center justify-between px-5 xl:px-0">
           <div className="flex items-center gap-20 leading-none">
             <Link
               href={"/"}
-              className="text-xl font-semibold tracking-tighter text-zinc-900"
+              className="font-semibold text-xl text-zinc-900 tracking-tighter"
             >
               Bitwise Builder
             </Link>
-            <nav
-              className="
-                flex items-center gap-6 font-medium tracking-tight text-zinc-500
-              "
-            >
+            <nav className="flex items-center gap-6 font-medium text-zinc-500 tracking-tight">
               <Link
                 href={"/services/"}
-                className="
-                  transition-colors
-                  hover:text-zinc-900
-                "
+                className="transition-colors hover:text-zinc-900"
               >
                 Services
               </Link>
               <Link
                 href={"/projects/"}
-                className="
-                  transition-colors
-                  hover:text-zinc-900
-                "
+                className="transition-colors hover:text-zinc-900"
               >
                 Projects
               </Link>
               <Link
                 href={"/careers/"}
-                className="
-                  flex items-center gap-1.5 transition-colors
-                  hover:text-zinc-900
-                "
+                className="flex items-center gap-1.5 transition-colors hover:text-zinc-900"
               >
                 Careers
                 <CircleFill size={5} className="text-pink-600" />
@@ -99,21 +81,13 @@ const Header: React.FC = () => {
           <div className="flex items-center gap-2">
             <Link
               href={"/contact-us/"}
-              className="
-                rounded-full bg-zinc-200 px-5 py-2.5 text-sm font-medium
-                text-zinc-700 transition-colors
-                hover:bg-zinc-300
-              "
+              className="rounded-full bg-zinc-200 px-5 py-2.5 font-medium text-sm text-zinc-700 transition-colors hover:bg-zinc-300"
             >
               Contact us
             </Link>
             <Link
               href={"/contact-us/"}
-              className="
-                rounded-full bg-zinc-900 px-5 py-2.5 text-sm font-medium
-                text-zinc-50 transition-colors
-                hover:bg-zinc-800
-              "
+              className="rounded-full bg-zinc-900 px-5 py-2.5 font-medium text-sm text-zinc-50 transition-colors hover:bg-zinc-800"
             >
               Schedule call
             </Link>

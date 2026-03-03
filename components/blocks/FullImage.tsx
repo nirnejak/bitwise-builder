@@ -1,11 +1,9 @@
-import * as React from "react"
+import CoverImage from "assets/team.jpg"
 
 import * as motion from "motion/react-client"
 import Image from "next/image"
-
+import type * as React from "react"
 import { BASE_TRANSITION } from "@/utils/animation"
-
-import CoverImage from "assets/team.jpg"
 
 const FullImage: React.FC = () => {
   return (

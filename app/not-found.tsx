@@ -1,8 +1,6 @@
-import * as React from "react"
-
-import { type Metadata } from "next"
-
+import type { Metadata } from "next"
 import Link from "next/link"
+import type * as React from "react"
 
 import { generateMetadata } from "@/utils/seo"
 
@@ -17,17 +15,13 @@ const NotFoundPage: React.FC = () => {
   return (
     <main className="grid h-dvh place-content-center text-center">
       {/* eslint-disable-next-line better-tailwindcss/enforce-consistent-line-wrapping */}
-      <h1 className="mb-12 text-6xl font-semibold tracking-tighter text-zinc-900">
+      <h1 className="mb-12 font-semibold text-6xl text-zinc-900 tracking-tighter">
         Seems like you{"'"}re lost.
       </h1>
       <div>
         <Link
           href={"/"}
-          className="
-            rounded-full bg-zinc-900 px-5 py-2.5 text-sm font-medium
-            text-zinc-50 transition-colors
-            hover:bg-zinc-800
-          "
+          className="rounded-full bg-zinc-900 px-5 py-2.5 font-medium text-sm text-zinc-50 transition-colors hover:bg-zinc-800"
         >
           Go to Home
         </Link>
