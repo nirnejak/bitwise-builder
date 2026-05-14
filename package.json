@@ -19,22 +19,22 @@
     "akar-icons": "^1.9.31",
     "dotenv": "^17.4.2",
     "motion": "^12.38.0",
-    "next": "^16.2.3",
-    "react": "^19.2.5",
-    "react-dom": "^19.2.5",
+    "next": "^16.2.6",
+    "react": "^19.2.6",
+    "react-dom": "^19.2.6",
     "sharp": "^0.34.5"
   },
   "devDependencies": {
-    "@tailwindcss/postcss": "^4.2.2",
+    "@tailwindcss/postcss": "^4.3.0",
     "@tailwindcss/typography": "^0.5.19",
-    "@types/node": "^25.6.0",
+    "@types/node": "^25.8.0",
     "@types/react": "^19.2.14",
     "babel-plugin-react-compiler": "^1.0.0",
-    "@biomejs/biome": "2.4.11",
+    "@biomejs/biome": "2.4.15",
     "husky": "^9.1.7",
-    "lint-staged": "^16.4.0",
-    "tailwindcss": "^4.2.2",
-    "typescript": "^6.0.2"
+    "lint-staged": "^17.0.4",
+    "tailwindcss": "^4.3.0",
+    "typescript": "^6.0.3"
   },
   "lint-staged": {
     "*.{js,jsx,ts,tsx,json,css}": "biome check --fix --no-errors-on-unmatched"
