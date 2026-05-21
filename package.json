@@ -18,7 +18,7 @@
   "dependencies": {
     "akar-icons": "^1.9.31",
     "dotenv": "^17.4.2",
-    "motion": "^12.38.0",
+    "motion": "^12.40.0",
     "next": "^16.2.6",
     "react": "^19.2.6",
     "react-dom": "^19.2.6",
@@ -27,8 +27,8 @@
   "devDependencies": {
     "@tailwindcss/postcss": "^4.3.0",
     "@tailwindcss/typography": "^0.5.19",
-    "@types/node": "^25.8.0",
-    "@types/react": "^19.2.14",
+    "@types/node": "^25.9.1",
+    "@types/react": "^19.2.15",
     "babel-plugin-react-compiler": "^1.0.0",
     "@biomejs/biome": "2.4.15",
     "husky": "^9.1.7",
