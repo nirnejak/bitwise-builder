@@ -32,7 +32,7 @@ const Services: React.FC = () => {
           animate={controls}
           variants={variants}
           transition={{ delay: 0, ...BASE_TRANSITION }}
-          className="mt-9 mb-12 max-w-[9ch] font-semibold text-5xl text-zinc-900 tracking-tighter md:text-7xl"
+          className="mt-9 mb-12 max-w-[9ch] text-5xl font-semibold tracking-tighter text-zinc-900 md:text-7xl"
         >
           What can we do for you?
         </motion.h2>

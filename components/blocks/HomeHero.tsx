@@ -19,7 +19,7 @@ const HomeHero: React.FC = () => {
             initial={{ translateY: 10, opacity: 0, filter: "blur(20px)" }}
             animate={{ translateY: 0, opacity: 1, filter: "none" }}
             transition={{ delay: 0, ...BASE_TRANSITION }}
-            className="relative flex items-center gap-1.5 rounded-full bg-pink-100 px-3.5 py-1.5 pl-7 text-pink-700 text-xs"
+            className="relative flex items-center gap-1.5 rounded-full bg-pink-100 px-3.5 py-1.5 pl-7 text-xs text-pink-700"
           >
             <CircleFill
               size={5}
@@ -33,7 +33,7 @@ const HomeHero: React.FC = () => {
           initial={{ translateY: 10, opacity: 0, filter: "blur(20px)" }}
           animate={{ translateY: 0, opacity: 1, filter: "none" }}
           transition={{ delay: 0.1, ...BASE_TRANSITION }}
-          className="my-6 max-w-[12ch] font-semibold text-6xl text-zinc-900 tracking-tighter md:mt-9 md:mb-12 md:text-8xl"
+          className="my-6 max-w-[12ch] text-6xl font-semibold tracking-tighter text-zinc-900 md:mt-9 md:mb-12 md:text-8xl"
         >
           A single place for all your dev work.
         </motion.h1>
@@ -43,7 +43,7 @@ const HomeHero: React.FC = () => {
           transition={{ delay: 0.2, ...BASE_TRANSITION }}
           className="flex flex-col items-start justify-between gap-8 md:flex-row md:items-center"
         >
-          <p className="max-w-[690px] text-base text-zinc-600 tracking-tight md:text-lg">
+          <p className="max-w-[690px] text-base tracking-tight text-zinc-600 md:text-lg">
             Building high-performance, scalable web apps with React, TypeScript,
             Next.js, and Astro. Empowering businesses with seamless user
             experiences and innovative digital solutions.
@@ -66,7 +66,7 @@ const HomeHero: React.FC = () => {
           initial={{ translateY: 10, opacity: 0 }}
           animate={{ translateY: 0, opacity: 1 }}
           transition={{ delay: 0.3, ...BASE_TRANSITION }}
-          className="mb-48 flex animate-marquee gap-6 px-5"
+          className="animate-marquee mb-48 flex gap-6 px-5"
         >
           <Image
             src={ProjectImage2}

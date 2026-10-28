@@ -11,7 +11,7 @@ const FullImage: React.FC = () => {
       initial={{ translateY: 10, opacity: 0 }}
       animate={{ translateY: 0, opacity: 1 }}
       transition={{ delay: 0, ...BASE_TRANSITION }}
-      className="mb-48 flex animate-marquee gap-6 px-5"
+      className="animate-marquee mb-48 flex gap-6 px-5"
     >
       <Image
         src={CoverImage}

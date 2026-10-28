@@ -52,11 +52,11 @@ const Header: React.FC = () => {
           <div className="flex items-center gap-20 leading-none">
             <Link
               href={"/"}
-              className="font-semibold text-xl text-zinc-900 tracking-tighter"
+              className="text-xl font-semibold tracking-tighter text-zinc-900"
             >
               Bitwise Builder
             </Link>
-            <nav className="flex items-center gap-6 font-medium text-zinc-500 tracking-tight">
+            <nav className="flex items-center gap-6 font-medium tracking-tight text-zinc-500">
               <Link
                 href={"/services/"}
                 className="transition-colors hover:text-zinc-900"
@@ -81,13 +81,13 @@ const Header: React.FC = () => {
           <div className="flex items-center gap-2">
             <Link
               href={"/contact-us/"}
-              className="rounded-full bg-zinc-200 px-5 py-2.5 font-medium text-sm text-zinc-700 transition-colors hover:bg-zinc-300"
+              className="rounded-full bg-zinc-200 px-5 py-2.5 text-sm font-medium text-zinc-700 transition-colors hover:bg-zinc-300"
             >
               Contact us
             </Link>
             <Link
               href={"/contact-us/"}
-              className="rounded-full bg-zinc-900 px-5 py-2.5 font-medium text-sm text-zinc-50 transition-colors hover:bg-zinc-800"
+              className="rounded-full bg-zinc-900 px-5 py-2.5 text-sm font-medium text-zinc-50 transition-colors hover:bg-zinc-800"
             >
               Schedule call
             </Link>

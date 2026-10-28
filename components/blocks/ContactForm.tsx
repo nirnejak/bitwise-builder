@@ -22,7 +22,7 @@ const ContactForm: React.FC = () => {
         initial={{ translateY: 10, opacity: 0 }}
         animate={{ translateY: 0, opacity: 1 }}
         transition={{ delay: 0.1, ...BASE_TRANSITION }}
-        className="mt-9 mb-12 font-semibold text-8xl text-zinc-900 tracking-tighter"
+        className="mt-9 mb-12 text-8xl font-semibold tracking-tighter text-zinc-900"
       >
         Contact us.
       </motion.h1>
@@ -36,7 +36,7 @@ const ContactForm: React.FC = () => {
             initial={{ translateY: 10, opacity: 0 }}
             animate={{ translateY: 0, opacity: 1 }}
             transition={{ delay: 0.2, ...BASE_TRANSITION }}
-            className="rounded-2xl bg-zinc-100 px-6 py-5 text-zinc-900 leading-none placeholder:text-zinc-400 focus:outline-hidden"
+            className="rounded-2xl bg-zinc-100 px-6 py-5 leading-none text-zinc-900 placeholder:text-zinc-400 focus:outline-hidden"
             type="text"
             placeholder="Name"
             name="name"
@@ -50,7 +50,7 @@ const ContactForm: React.FC = () => {
             initial={{ translateY: 10, opacity: 0 }}
             animate={{ translateY: 0, opacity: 1 }}
             transition={{ delay: 0.25, ...BASE_TRANSITION }}
-            className="rounded-2xl bg-zinc-100 px-6 py-5 text-zinc-900 leading-none placeholder:text-zinc-400 focus:outline-hidden"
+            className="rounded-2xl bg-zinc-100 px-6 py-5 leading-none text-zinc-900 placeholder:text-zinc-400 focus:outline-hidden"
             type="email"
             placeholder="Email"
             name="email"

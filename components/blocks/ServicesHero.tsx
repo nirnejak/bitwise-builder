@@ -33,7 +33,7 @@ const ServicesHero: React.FC = () => {
           animate={"visible"}
           variants={variants}
           transition={{ delay: 0, ...BASE_TRANSITION }}
-          className="mt-48 mb-6 text-center font-semibold text-6xl text-zinc-900 tracking-tighter md:text-8xl"
+          className="mt-48 mb-6 text-center text-6xl font-semibold tracking-tighter text-zinc-900 md:text-8xl"
         >
           Our Services
         </motion.h1>
@@ -41,7 +41,7 @@ const ServicesHero: React.FC = () => {
           initial={"hidden"}
           animate={"visible"}
           variants={variants}
-          className="mb-24 text-center text-base text-zinc-600 tracking-tight md:text-lg"
+          className="mb-24 text-center text-base tracking-tight text-zinc-600 md:text-lg"
         >
           What can we do for you?
         </motion.p>
